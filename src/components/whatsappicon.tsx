@@ -1,0 +1,20 @@
+'use client';
+
+import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
+
+export default function WhatsappSticky() {
+  return (
+    <div className="fixed bottom-4 right-6 z-50">
+      <Link
+        href="https://wa.me/919540838797" 
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition duration-300 animate-pulse">
+          <FaWhatsapp size={24} />
+        </div>
+      </Link>
+    </div>
+  );
+}
