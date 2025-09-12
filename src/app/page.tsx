@@ -100,9 +100,9 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full md:w-1/2">
-          <div className="w-72 h-72 rounded-full overflow-hidden shadow-lg mx-auto">
+          <div className="w-82 h-82 rounded-full overflow-hidden shadow-lg mx-auto">
             <img
-              src="/pic1.jpg"
+              src="/pic3.jpg"
               alt="Anshika Tiwari"
               className="w-full h-full object-cover"
             />
@@ -119,9 +119,17 @@ export default function Home() {
         whileHover={{ scale: 1.02 }}
       >
         <h2 className="text-3xl font-semibold text-white">About Me</h2>
-        <p className="text-gray-400">
+        <p className="text-gray-300">
+          <span className='text-blue-300'>Anshika Tiwari is widely recognized as one of the best providers of website design services in Delhi NCR.</span> Having worked with some of the top names in the industry, I consistently deliver high-quality web development solutions that my clients can rely on. It’s not just the numbers that define me — it’s the experience, learning, and innovation I bring to every project. <br />
           I specialize in building scalable full-stack applications using the MERN stack. With a strong foundation in both frontend and backend technologies, I bring digital ideas to life with clean code and user-focused design. I believe in writing clean, maintainable code and continuously learning new technologies to stay updated in this fast-evolving industry. My strengths include responsive design, backend logic, REST APIs, and team-based version control using Git and GitHub.
         </p>
+        <ul className="list-disc list-inside text-gray-300 space-y-2 italic">
+          <li>having a responsive website is no longer optional — it’s essential.</li>
+          <li>I create is fully mobile-friendly, so users can access it anytime, anywhere, on any device. </li>
+          <li>Modern, responsive, and SEO-friendly websites</li>
+          <li>Regular maintenance and quick updates</li>
+          <li>Affordable packages for small & medium businesses</li>
+        </ul>
         <Link href="/about" className="btn btn-sm btn-outline btn-primary">
           Learn More
         </Link>
@@ -220,12 +228,12 @@ export default function Home() {
               className="bg-neutral rounded-xl p-6 shadow-md h-full border border-white/20 hover:shadow-primary/40 transition-transform hover:scale-105 flex flex-col items-center text-center"
             >
               {/* Icon inside circle */}
-              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-primary/20 mb-6">
+              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-r from-pink-900 to-blue-300 mb-6">
                 {service.icon}
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">
                 {service.name}
-              </h3>
+              </h3> 
               <p className="text-gray-400 mb-4">{service.desc}</p>
               <Link href='/services' className="text-primary hover:underline">
                 View Details

@@ -36,13 +36,13 @@ export default function About() {
         <h2 className="text-3xl font-semibold text-white">Experience</h2>
         <div className=' w-20 h-1 bg-gradient-to-r from-red-600 via-gray-400 to-blue-700  hover:bg-red-500 ml-1 rounded-xl'></div>
         <p>
-          I’m Anshika Tiwari, a dedicated  full time and freelance web designer and developer based in Delhi-NCR, with over 2 years of professional experience. I specialize in creating custom websites using MERN . My expertise includes MongoDB , Express.js , React.js, Node.js, Next.js, PostgreSQL, Typescript, and MaterialUI . I consistently deliver high-quality web development solutions that my clients can rely on. It’s not just the numbers that define me — it’s the experience, learning, and innovation I bring to every project.
+          I’m Anshika Tiwari, a dedicated  full time and freelance web designer and developer based in Delhi-NCR, with over 3 years of professional experience. I specialize in creating custom websites using MERN . My expertise includes MongoDB , Express.js , React.js, Node.js, Next.js, PostgreSQL, Typescript, and MaterialUI . I consistently deliver high-quality web development solutions that my clients can rely on. It’s not just the numbers that define me — it’s the experience, learning, and innovation I bring to every project.
         </p>
-        <p className=' italic text-orange-400 hover:text-blue-600'>
+        <p className=' italic text-orange-400 hover:text-blue-300'>
           If you’re looking for a reliable full-time or freelance static website(business website, portfolio, blog), and  Dynamic website(Ecommerce site) Developer , feel free to call me at :-<br /> +91-95408 38797
         </p>
         <ul className="list-disc list-inside text-gray-300 space-y-2">
-          <li>More Than two year</li>
+          <li>More Than Three year</li>
           <li>Full Stack MERN Developer</li>
           <li>Multiple projects done</li>
         </ul>
@@ -60,7 +60,7 @@ export default function About() {
         <h2 className="text-3xl font-semibold text-white hover:text-red-600 mb-5">Why Choose Anshika?</h2>
         <div className=' flex w-20 h-1 bg-gradient-to-r from-red-600 via-gray-400 to-blue-700 ml-2 rounded-2xl'></div>
         <p className="text-gray-200">
-          Choosing me means opting for a developer who is not only skilled in the latest technologies but also deeply committed to delivering exceptional results. I bring a unique blend of technical expertise, creativity, and a client-focused approach to every project. Here’s why I stand out: When it comes to web design, I’ve built a solid reputation in delivering high-quality, results-driven websites. What sets me apart is not just my 2+ years of experience or the wide range of projects I’ve handled — it’s my passion and personal commitment to helping
+          Choosing me means opting for a developer who is not only skilled in the latest technologies but also deeply committed to delivering exceptional results. I bring a unique blend of technical expertise, creativity, and a client-focused approach to every project. Here’s why I stand out: When it comes to web design, I’ve built a solid reputation in delivering high-quality, results-driven websites. What sets me apart is not just my 3+ years of experience or the wide range of projects I’ve handled — it’s my passion and personal commitment to helping
         </p>
         <p className="text-orange-500">
           I take the time to understand your business goals, target audience, and unique challenges. This allows me to create tailored solutions that truly resonate with your audience and drive meaningful results. Whether you need a sleek portfolio site, a robust e-commerce platform, or a dynamic web application, I have the skills and experience to bring your vision to life.
@@ -71,10 +71,14 @@ export default function About() {
         <p className="italic text-orange-500">
           As a full-time or freelance website designer and developer , I offer personalized service with full attention to each project — from concept to deployment. If you’re looking for someone who understands both design and development, and truly cares about your business goals, I’m here to help.
         </p>
-        <ul className="list-disc list-inside text-gray-300 space-y-2">
+        <ul className="list-disc list-inside text-blue-200 space-y-2 italic">
           <li>having a responsive website is no longer optional — it’s essential.</li>
           <li>perfectly across all screen sizes — whether it’s a smartphone, tablet, or desktop</li>
           <li> I create is fully mobile-friendly, so users can access it anytime, anywhere, on any device. </li>
+          <li>Modern, responsive, and SEO-friendly websites</li>
+          <li>Regular maintenance and quick updates</li>
+          <li>Affordable packages for small & medium businesses</li>
+          <li>This way, you can focus on growing your business while we take care of your website.</li>
         </ul>
       </motion.div>
 
@@ -89,7 +93,7 @@ export default function About() {
       >
         <h2 className="text-3xl font-semibold text-white mb-5">Location</h2>
         <div className=' w-18 h-1 bg-gradient-to-r from-red-600 via-gray-400 to-blue-700 hover:bg-red-500 ml-2'></div>
-        <p className="text-gray-300"> 190, New Delhi, Okhla Phase-1 Tekhand Village, Near ESI Hospital. Delhi-110044  </p>
+        <p className="text-gray-300"> 190, New Delhi, Okhla Phase-1 Tekhand Village, Near ESI Hospital. <br /> Nearest Metro station- Govind Puri Delhi-110044 , India</p>
       </motion.div>
 
       <motion.div

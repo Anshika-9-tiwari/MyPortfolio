@@ -37,7 +37,7 @@ const services = [
     image: '/blogs.png',
     description:
       'I am providing the best Portfolio & Blog Development service on the website. MERN Website Development,  and web designing. ',
-    link: 'https://www.diac.co.in/blogs',
+    link: 'https://anshika-tiwari.vercel.app/',
   },
   {
     title: 'Domain & Hosting Services',

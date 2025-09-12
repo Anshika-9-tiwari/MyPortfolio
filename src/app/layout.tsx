@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import WhatsappSticky from "@/components/whatsappicon";
+import ContactSticky from "@/components/contactstickyicon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
           <p>&copy; {new Date().getFullYear()} Anshika Tiwari. All rights reserved.</p>
         </footer>
         <WhatsappSticky />
+        <ContactSticky />
 
       </body>
     </html>

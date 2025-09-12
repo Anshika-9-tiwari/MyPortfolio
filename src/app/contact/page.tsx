@@ -39,15 +39,18 @@ export default function Contact() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-12 md:px-20 relative">
       <Toaster />
-      <h1 className="text-4xl font-bold text-center text-primary mb-4 pb-2">Get In Touch with me</h1>
-      <div className="w-30 h-1 bg-gradient-to-r from-blue-700 to-gray-300 mx-auto mb-6 rounded-full"></div>
+      <h1 className="text-4xl font-bold text-center text-blue-800 mb-4 pb-2">Get In Touch with me</h1>
+      <div className="w-30 h-1 bg-gradient-to-r from-blue-700 to-gray-300 mx-auto mb-8 rounded-full"></div>
+      <p className="text-center text-gray-300 mb-12">
+        I’m always excited to connect with new people and explore potential opportunities. Whether you have a question about my services, want to discuss a project idea, or just want to say hello, feel free to reach out using the contact form below. I look forward to hearing from you!
+      </p>
       <div className="max-w-4xl mx-auto flex flex-row flex-wrap justify-between pt-8 space-x-16 gap-10">
         {/*Address Section */}
-        <section className="mb-10 pl-2 ">
+        <section className="mb-10 pl-2 w-80 sm:w-96 md:w-1/3  space-y-6">
           <h2 className="text-2xl font-semibold text-primary mb-2">Address</h2>
           <p className="text-gray-300 border-b-2 border-gray-700 pb-2 mb-4">
-            190, New Delhi, Okhla Phase-1 Tekhand Village ,<br />
-            Near ESI Hospital. Delhi-110044
+            190, New Delhi, Okhla Phase-1 Tekhand Village, Near ESI Hospital,<br/>
+             Nearest Metro Govindpuri <br /> Delhi-110044 , India
           </p>
           <h2 className="text-2xl font-semibold text-primary mb-2">Email</h2>
           <p className="text-gray-300 border-b-2 border-gray-700 pb-2 mb-4">
