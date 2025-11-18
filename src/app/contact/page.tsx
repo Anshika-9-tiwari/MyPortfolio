@@ -50,7 +50,7 @@ export default function Contact() {
           <h2 className="text-2xl font-semibold text-primary mb-2">Address</h2>
           <p className="text-gray-300 border-b-2 border-gray-700 pb-2 mb-4">
             190, New Delhi, Okhla Phase-1 Tekhand Village, Near ESI Hospital,<br/>
-             Nearest Metro Govindpuri <br /> Delhi-110044 , India
+            Nearest Metro Govindpuri <br /> Delhi-110044 , India
           </p>
           <h2 className="text-2xl font-semibold text-primary mb-2">Email</h2>
           <p className="text-gray-300 border-b-2 border-gray-700 pb-2 mb-4">

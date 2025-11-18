@@ -29,13 +29,13 @@ export default function Home() {
 
   const services = [
     {
-      name: "Website Designing",
+      name: "Web Designing",
       link: "#",
       desc: "Creating visually appealing and user-friendly website designs.",
       icon: <FaLaptopCode className="text-2xl text-primary" />,
     },
     {
-      name: "Website Development",
+      name: "Web Development",
       link: "#",
       desc: "Website development and deployment with modern UI and responsive design.",
       icon: <FaServer className="text-2xl text-primary" />,
@@ -47,7 +47,7 @@ export default function Home() {
       icon: <FaLaptopCode className="text-2xl text-primary" />,
     },
     {
-      name: "E-commerce Website Development",
+      name: "E-commerce Web Development",
       link: "#",
       desc: "Building robust e-commerce platforms with secure payment integration.",
       icon: <FaShoppingCart className="text-2xl text-primary" />,
@@ -64,6 +64,18 @@ export default function Home() {
       desc: "Providing reliable domain registration and hosting solutions for your website.",
       icon: <FaGlobe className="text-2xl text-primary" />,
     },
+    {
+      name: "Web Application",
+      link: "#",
+      desc: "Developing dynamic web applications tailored to your business needs.",
+      icon: <FaLaptopCode className="text-2xl text-primary" />,
+    },
+    {
+      name: "Web Deployment",
+      link: "#",
+      desc: "Deploying websites on various hosting platforms ensuring optimal performance.",
+      icon: <FaGlobe className="text-2xl text-primary" />,
+    },
   ];
 
   return (
@@ -77,7 +89,7 @@ export default function Home() {
         whileHover={{ scale: 1.02 }}
       >
         <div className="space-y-6 md:w-1/2 mt-5 ">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-red-600 to-red-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-red-600 to-red-600 bg-clip-text text-transparent transition duration-300 animate-pulse">
             Hi, I'm Anshika Tiwari
           </h1>
           <p className="text-xl md:text-2xl font-medium text-gray-400">
@@ -187,14 +199,24 @@ export default function Home() {
               desc: 'Company profile site for automation services.'
             },
             {
-              name: 'Data Management System ',
+              name: 'Defect Management System ',
               link: '#',
               desc: 'Web app for managing data efficiently with full CRUD.'
+            },
+            {
+              name: 'Attendance Management System',
+              link: '#',
+              desc: 'Web app to manage employee attendance with export features.'
+            },
+            {
+              name: 'Portfolio Website',
+              link: '#',
+              desc: 'Personal portfolio showcasing projects and skills.'
             }
           ].map((project, i) => (
             <div
               key={i}
-              className="bg-neutral rounded-xl p-5 shadow-md h-full border border-white/20 hover:shadow-primary/40 transition-shadow  hover:scale-105"
+              className="bg-neutral rounded-xl p-5 shadow-md h-full border border-white/25 border-b-gray-500 hover:shadow-primary/40 transition-shadow  hover:scale-105"
             >
               <h3 className="text-xl font-semibold mb-2 text-white">
                 {project.name}
@@ -228,7 +250,7 @@ export default function Home() {
               className="bg-neutral rounded-xl p-6 shadow-md h-full border border-white/20 hover:shadow-primary/40 transition-transform hover:scale-105 flex flex-col items-center text-center"
             >
               {/* Icon inside circle */}
-              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-r from-pink-900 to-blue-300 mb-6">
+              <div className="w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-r from-pink-800 to-blue-100 mb-6">
                 {service.icon}
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">
@@ -255,11 +277,12 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         className="w-full md:w-1/2 space-y-4 mx-auto mt-12"
       >
-        <div className="text-center space-y-4 mt-12">
-          <h2 className="text-3xl font-semibold text-white">I'm available for full-time roles & freelance projects.</h2>
+        <div className="text-center space-y-5 mt-12">
+          <h2 className="text-3xl font-semibold text-orange-600 transition duration-300 animate-pulse">I'm available for full-time roles & freelance projects.</h2>
+          <p className='text-gray-400'>I build robust web applications, dashboards, and automation-based solutions using React.js, Next.js, Node.js, Express.js, PostgreSQL, and modern UI frameworks.</p>
           <p className="text-gray-400">
-            I thrive on crafting dynamic web applications, and <br />
-            delivering seamless user experiences.
+            If you need a clean, fast, and professional project, I’d love to work with you.  I thrive on crafting dynamic web applications, and
+            delivering seamless user experiences.  
           </p>
         </div>
       </motion.div>

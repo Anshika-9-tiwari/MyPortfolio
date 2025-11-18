@@ -19,8 +19,22 @@ const projects = [
     link: 'https://www.velocityautomation.co.in/',
   },
   {
+    title: 'Attendance Management System',
+    image: '/attendanceapp.png',
+    description:
+      'A full-stack web application to manage employee attendance with features like marking, viewing, and exporting attendance records. ',
+    link: 'https://va-attendance-app.vercel.app/',
+  },
+  {
+    title: 'Portfolio Website',
+    image: '/portfolio.png',
+    description:
+      'A personal portfolio website built to showcase my projects, skills, and services as a web developer.',
+    link: 'https://anshika-tiwari.vercel.app/',
+  },
+  {
     title: 'Defect Management System ',
-    image: '/dms.png',
+    image: '/dmswebapp.png',
     description:
       'A full-stack web app built to manage and organize company data efficiently with CRUD functionality.',
     link: 'https://github.com/Anshika-9-tiwari/DefectsManagementSystem',
@@ -43,7 +57,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="bg-neutral rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 border border-white/20 "
+            className="bg-neutral rounded-xl shadow-md overflow-hidden hover:shadow-primary/50 hover:scale-105 transition-all duration-300 border border-white/20 "
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}

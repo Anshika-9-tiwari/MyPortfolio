@@ -63,11 +63,11 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="bg-black text-white shadow-2xl border-b border-white/35 backdrop-blur-md rounded-b-lg"
+        className="bg-black text-white shadow-2xl border-b border-white/35 backdrop-blur-md "
       >
-        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center ">
+        <div className="max-w-7xl mx-auto px-5 md:px-2 py-3 flex justify-between items-center ">
           <Link href="/">
-            <img src="/ATLogo1.png" alt="logo" className="h-10" />
+            <img src="/ATLogo1.png" alt="logo" className="h-14" />
           </Link>
 
           {/* Desktop Navigation */}

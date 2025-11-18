@@ -27,7 +27,7 @@ const services = [
   },
   {
     title: 'E-commerce Website Development',
-    image: '/dms.png',
+    image: '/dmswebapp.png',
     description:
       'E-commerceis a process of buying and selling products and services on the Internet through secure credit card processing. I am Delhi based providing customized and flexible e-commerce website Developer. I have experience in building e-commerce websites using MERN stack.',
     link: 'https://github.com/Anshika-9-tiwari/DefectsManagementSystem',
@@ -36,8 +36,15 @@ const services = [
     title: 'Portfolio & Blog Development',
     image: '/blogs.png',
     description:
-      'I am providing the best Portfolio & Blog Development service on the website. MERN Website Development,  and web designing. ',
-    link: 'https://anshika-tiwari.vercel.app/',
+      'I am providing the best Portfolio & Blog Development service on the website. A personal portfolio website is a site created by an individual to showcase their skills, projects, and accomplishments. It serves as an online resume and a platform to demonstrate expertise to potential employers or clients.',
+    link: 'https://www.diac.co.in/blogs',
+  },
+  {
+    title: 'Web Application',
+    image: '/attendanceapp.png',
+    description:
+      'Web applications are programs that run on a web server and can be accessed through a web browser. They are designed to provide interactive and dynamic user experiences, allowing users to perform various tasks online. I build web applications using modern technologies like React.js, Next.js, Node.js, and Express.js to create fast, responsive, and user-friendly solutions.',
+    link: 'https://va-attendance-app.vercel.app/',
   },
   {
     title: 'Domain & Hosting Services',
@@ -68,7 +75,7 @@ export default function Service() {
         {services.map((services, index) => (
           <motion.div
             key={index}
-            className="bg-neutral rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 border border-white/20"
+            className="bg-neutral rounded-xl shadow-md overflow-hidden hover:shadow-primary/50 hover:scale-105 transition-all duration-300 border border-white/20"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}

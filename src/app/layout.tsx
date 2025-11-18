@@ -11,8 +11,11 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Portfolio",
-  description: "Anshika Tiwari's Personal Portfolio",
+  title: "My Portfolio",
+  description: "Anshika Tiwari's Portfolio",
+  icons: {
+    icon: "/ATLogo1.png",
+  },
 };
 
 export default function RootLayout({

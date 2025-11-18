@@ -45,6 +45,8 @@ export default function About() {
           <li>More Than Three year</li>
           <li>Full Stack MERN Developer</li>
           <li>Multiple projects done</li>
+          <li>Client Satisfaction</li>
+          <li>Reliable and Professional Service</li>
         </ul>
       </motion.div>
 
@@ -74,11 +76,33 @@ export default function About() {
         <ul className="list-disc list-inside text-blue-200 space-y-2 italic">
           <li>having a responsive website is no longer optional — it’s essential.</li>
           <li>perfectly across all screen sizes — whether it’s a smartphone, tablet, or desktop</li>
-          <li> I create is fully mobile-friendly, so users can access it anytime, anywhere, on any device. </li>
+          <li>I create is fully mobile-friendly, so users can access it anytime, anywhere, on any device. </li>
           <li>Modern, responsive, and SEO-friendly websites</li>
           <li>Regular maintenance and quick updates</li>
           <li>Affordable packages for small & medium businesses</li>
           <li>This way, you can focus on growing your business while we take care of your website.</li>
+        </ul>
+      </motion.div>
+
+      {/*Specialization Section */}
+      <motion.div
+        className="space-y-6"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        whileHover={{ scale: 1.02 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        <h2 className="text-3xl font-semibold text-white">Specialize</h2>
+        <div className=' w-20 h-1 bg-gradient-to-r from-red-600 via-gray-400 to-blue-700  hover:bg-red-500 ml-1 rounded-xl'></div>
+        <p>
+         I specialize in creating seamless user experiences with clean, maintainable code. Whether you need a portfolio site, e-commerce platform, or custom web app, I deliver reliable solutions tailored to your needs. My expertise includes front-end design, backend development, RESTful APIs, and database management.  I help businesses build modern, responsive, and scalable web applications using React.js, Next.js, Node.js, Express.js, and MongoDB/PostgreSQL.
+        </p>
+        <ul className="list-disc list-inside text-blue-100 space-y-2">
+          <li>Website development (Next.js, React, DaisyUI, Material UI)</li>
+          <li>Dashboard & Admin Panels</li>
+          <li>Automation systems (Industry-based applications)</li>
+          <li>API development & integrations</li>
         </ul>
       </motion.div>
 
