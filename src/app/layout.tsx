@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 import WhatsappSticky from "@/components/whatsappicon";
 import ContactSticky from "@/components/contactstickyicon";
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,13 +29,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} antialiased`}
       >
-        <Navbar />
+        <Navbar/>
         {children}
-        <footer className="bg-gradient-to-r from-red-900 via-blue-900 to-red-900 text-white text-center py-4">
-          <p>&copy; {new Date().getFullYear()} Anshika Tiwari. All rights reserved.</p>
-        </footer>
+        
         <WhatsappSticky />
         <ContactSticky />
+        <Footer/>
 
       </body>
     </html>
