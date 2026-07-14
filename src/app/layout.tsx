@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from "react-hot-toast";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import WhatsappSticky from "@/components/whatsappicon";
@@ -12,10 +13,10 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Anshika Tiwari's Portfolio",
+  title: "Umakan Technologies",
+  description: "Umakan Technologies provides web development services",
   icons: {
-    icon: "/ATLogo1.png",
+    icon: "/umakan_logo.png",
   },
 };
 
@@ -31,6 +32,35 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        
+        <Toaster
+          position="top-right"
+          reverseOrder={false}
+          toastOptions={{
+            duration: 4000,
+
+            style: {
+              background: "#111827",
+              color: "#fff",
+              border: "1px solid rgba(255,121,0,.25)",
+              borderRadius: "16px",
+            },
+
+            success: {
+              iconTheme: {
+                primary: "#ff7900",
+                secondary: "#fff",
+              },
+            },
+
+            error: {
+              iconTheme: {
+                primary: "#ef4444",
+                secondary: "#fff",
+              },
+            },
+          }}
+        />
         
         <WhatsappSticky />
         <ContactSticky />

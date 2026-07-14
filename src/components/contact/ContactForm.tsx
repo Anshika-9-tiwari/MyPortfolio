@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 import {
   BriefcaseBusiness,
   Clock3,
@@ -57,20 +59,79 @@ const benefits = [
   },
 ];
 
+
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    company: "",
+    services: "",
+    budget: "",
+    timeline: "",
+    message: "",
+  });
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
+  e.preventDefault();
 
-    setLoading(true);
+    try {
+      setLoading(true);
 
-    // TODO:
-    // call your API
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    setTimeout(() => {
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.message);
+      }
+
+      toast.success(
+         "Thank you! We'll get back to you within 24 hours."
+      );
+      
+      setTimeout(() => {
+        router.push("/thank-you");
+      }, 1500);
+
+      setFormData({
+        fullName: "",
+        email: "",
+        phone: "",
+        company: "",
+        services: "",
+        budget: "",
+        timeline: "",
+        message: "",
+      });
+
+    } catch (error: any) {
+      toast.error(
+        error.message || "Something went wrong."
+      );
+    } finally {
       setLoading(false);
-    }, 1500);
+    }
   }
 
   return (
@@ -111,6 +172,9 @@ export default function ContactForm() {
 
                 <input
                   type="text"
+                  name="fullName"
+                  value={formData.fullName}
+                  onChange={handleChange}
                   placeholder="Full Name"
                   className="input input-bordered w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-[#ff7900]
                 focus:outline-none transition-all duration-300"
@@ -119,6 +183,9 @@ export default function ContactForm() {
 
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   placeholder="Email Address"
                   className="input input-bordered w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-[#ff7900]
                 focus:outline-none transition-all duration-300"
@@ -131,13 +198,20 @@ export default function ContactForm() {
 
                 <input
                   type="tel"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
                   placeholder="Phone Number"
+                  required
                   className="input input-bordered w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-[#ff7900]
                 focus:outline-none transition-all duration-300"
                 />
 
                 <input
                   type="text"
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
                   placeholder="Company (Optional)"
                   className="input input-bordered w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-[#ff7900]
                 focus:outline-none transition-all duration-300"
@@ -147,54 +221,57 @@ export default function ContactForm() {
 
               <div className="grid md:grid-cols-3 gap-5">
 
-                <select className="select select-bordered border-white/10 rounded-xl text-white focus:border-[#ff7900]
-                focus:outline-none transition-all duration-300">
-
-                  <option>
-                    Select Service
-                  </option>
+               <select
+                  name="services"
+                  value={formData.services}
+                  onChange={handleChange}
+                  className="select select-bordered border-white/10 rounded-xl text-white"
+                >
+                  <option value="">Select services</option>
 
                   {services.map((service) => (
-                    <option key={service}>
+                    <option key={service} value={service}>
                       {service}
                     </option>
                   ))}
-
                 </select>
 
-                <select className="select select-bordered  border-white/10 rounded-xl text-white focus:border-[#ff7900]
-                focus:outline-none transition-all duration-300">
-
-                  <option>
-                    Budget
-                  </option>
+                <select
+                  name="budget"
+                  value={formData.budget}
+                  onChange={handleChange}
+                  className="select select-bordered border-white/10 rounded-xl text-white"
+                >
+                  <option value="">Budget</option>
 
                   {budgets.map((budget) => (
-                    <option key={budget}>
+                    <option key={budget} value={budget}>
                       {budget}
                     </option>
                   ))}
-
                 </select>
 
-                <select className="select select-bordered  border-white/10 rounded-xl text-white focus:border-[#ff7900]
-                focus:outline-none transition-all duration-300">
+               <select
+                name="timeline"
+                value={formData.timeline}
+                onChange={handleChange}
+                className="select select-bordered border-white/10 rounded-xl text-white"
+              >
+                <option value="">Timeline</option>
 
-                  <option>
-                    Timeline
+                {timelines.map((timeline) => (
+                  <option key={timeline} value={timeline}>
+                    {timeline}
                   </option>
-
-                  {timelines.map((timeline) => (
-                    <option key={timeline}>
-                      {timeline}
-                    </option>
-                  ))}
-
-                </select>
+                ))}
+              </select>
 
               </div>
 
               <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
                 rows={6}
                 placeholder="Describe your project, goals, required features, preferred design style, or any references you'd like to share..."
                 className="textarea textarea-bordered w-full bg-white/5 border-white/10 rounded-xl text-white focus:border-[#ff7900]

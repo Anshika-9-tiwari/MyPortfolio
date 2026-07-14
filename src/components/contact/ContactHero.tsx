@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    value: "New Delhi Okhla Phase-1 Tehkhand Village, 110020 India",
+    value: "Remote Friendly",
   },
 ];
 
