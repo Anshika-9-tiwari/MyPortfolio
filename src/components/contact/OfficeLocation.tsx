@@ -38,13 +38,13 @@ const officeInfo = [
 export default function OfficeLocation() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
-        <div className="grid lg:grid-cols-5 gap-10 items-stretch">
+        <div className="grid lg:grid-cols-6 gap-10 items-stretch">
 
           {/* Google Map */}
 
-          <div className="lg:col-span-3 rounded-[30px] overflow-hidden border border-white/10">
+          <div className="lg:col-span-3 rounded-[30px] overflow-hidden border border-[#ff7900]/50">
 
             <iframe
               src="https://www.google.com/maps?q=Tehkhand%20Village%2C%20Mavi%20Mohalla%2C%20Okhla%20Phase%201%2C%20New%20Delhi%20110020&z=16&output=embed"
@@ -59,13 +59,13 @@ export default function OfficeLocation() {
 
           {/* Office Details */}
 
-          <div className="lg:col-span-2 rounded-[30px] border border-white/10 bg-[#111827] p-8">
+          <div className="lg:col-span-3 rounded-[30px] border border-[#ff7900]/40 bg-[#111827] p-8">
 
-            <span className="text-[#ff7900] font-medium">
+            <span className="text-[#ff7900] font-medium border border-[#ff7900]/50 rounded-full px-4 py-2">
               📍Let's Connect
             </span>
 
-            <h2 className="text-3xl font-semibold text-white mt-4">
+            <h2 className="text-3xl font-semibold text-white mt-5">
                Based in New Delhi, serving clients across India and worldwide through remote collaboration and on-site consultations when required.
             </h2>
 
@@ -75,7 +75,7 @@ export default function OfficeLocation() {
               we'd love to hear from you.
             </p>
 
-            <div className="space-y-5 flex flex-col mt-10">
+            <div className="space-y-5 grid grid-cols-2 gap-4 mt-10">
 
               {officeInfo.map((item) => {
 

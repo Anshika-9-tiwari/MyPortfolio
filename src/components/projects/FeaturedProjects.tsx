@@ -5,7 +5,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 export default function FeaturedProjects() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <SectionHeader
           badge="🚀 Featured Case Studies"

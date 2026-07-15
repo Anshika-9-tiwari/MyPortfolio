@@ -79,8 +79,8 @@ const technologies = [
 
 export default function DevelopmentProcess() {
   return (
-    <section className="bg-[#0B0F19] py-24">
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+    <section className="bg-[#0B0F19] py-20">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <SectionHeader
           badge="⚙️ Our Process"
@@ -137,17 +137,17 @@ export default function DevelopmentProcess() {
 
         <div className="mt-20">
 
-          <h3 className="text-center text-white text-2xl font-bold">
-            Technologies We Work With
+          <h3 className="text-center text-[#ff7900] text-2xl font-bold">
+            Technologies {" "} <span className="text-white"> We Work With</span>
           </h3>
 
-          <div className="flex flex-wrap justify-center gap-4 mt-8">
+          <div className="flex flex-wrap justify-center gap-4 mt-10">
 
             {technologies.map((tech) => (
 
               <span
                 key={tech}
-                className="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-gray-300 hover:border-[#ff7900] hover:text-[#ff7900] transition-all duration-300"
+                className="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:border-[#ff7900] hover:text-[#ff7900] transition-all duration-300"
               >
                 {tech}
               </span>

@@ -6,7 +6,7 @@ import SectionHeader from "../shared/SectionHeader";
 
 export default function Services() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-16 py-24">
+    <section className="bg-[#0B0F19] px-6 lg:px-13 py-24">
 
       {/* Heading */}
 

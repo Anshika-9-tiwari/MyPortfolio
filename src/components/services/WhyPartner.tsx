@@ -43,7 +43,7 @@ const features = [
 const stats = [
   {
     value: "100%",
-    label: "SEO-Friendly Web..",
+    label: "SEO-Friendly",
   },
   {
     value: "100%",
@@ -51,7 +51,7 @@ const stats = [
   },
   {
     value: "2-4",
-    label: "Weeks Delivery Time",
+    label: "Weeks Delivery",
   },
   {
     value: " 95%",
@@ -69,7 +69,7 @@ const stats = [
 
 export default function WhyPartner() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-16 py-20">
+    <section className="bg-[#0B0F19] px-6 lg:px-14 py-20">
 
       {/* Heading */}
       <SectionHeader

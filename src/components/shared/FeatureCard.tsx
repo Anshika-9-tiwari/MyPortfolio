@@ -34,7 +34,7 @@ export default function FeatureCard({
   const Card = (
     <div
       className={clsx(
-        "group h-auto rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-7 transition-all duration-300",
+        "group h-auto rounded-3xl border border-[#ff7900]/20 shadow-xl bg-white/5 backdrop-blur-xl p-7 transition-all duration-300",
         "hover:-translate-y-2 hover:border-[#ff7900]/40 hover:shadow-lg hover:shadow-[#ff7900]/10",
         variant === "gradient" &&
           "bg-gradient-to-br from-[#ff7900]/10 via-white/5 to-transparent",

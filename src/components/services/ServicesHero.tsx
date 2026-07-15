@@ -51,7 +51,7 @@ export default function ServicesHero() {
 
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-14">
 
         {/* HERO */}
 

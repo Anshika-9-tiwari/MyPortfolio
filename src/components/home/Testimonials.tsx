@@ -89,7 +89,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-16 py-14 md:py-16">
+    <section className="bg-[#0B0F19] px-6 lg:px-13 py-14 md:py-16">
       
       <SectionHeader
         badge="💬 Client Testimonials"

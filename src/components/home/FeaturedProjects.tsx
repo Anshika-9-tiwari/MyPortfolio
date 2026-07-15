@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function FeaturedProjects() {
   return (
-    <section className="bg-[#0B0F19] px-8 lg:px-16 py-14 md:py-16">
+    <section className="bg-[#0B0F19] px-8 lg:px-14 py-14 md:py-16">
 
       {/* Heading */}
       <SectionHeader

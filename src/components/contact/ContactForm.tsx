@@ -137,25 +137,25 @@ export default function ContactForm() {
   return (
     <section
       id="contact-form"
-      className="bg-[#0B0F19] py-20"
+      className="bg-[#0B0F19] py-20 border-b border-dashed border-[#ff7900]/20"
     >
-      <div className="max-w-7xl mx-auto px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto px-8 lg:px-12">
 
         <div className="grid lg:grid-cols-5 gap-10">
 
           {/* Form */}
 
-          <div className="lg:col-span-3 rounded-[32px] border border-white/10 bg-[#111827] hover:border-[#ff7900]/30 p-8 lg:p-10">
+          <div className="lg:col-span-3 rounded-[32px] border border-white/20 bg-[#111827] hover:border-[#ff7900]/30 p-8 lg:p-10">
 
             <div className="mb-10">
 
-              <span className="text-[#ff7900] font-medium">
+              <span className="text-[#ff7900] font-medium border border-[#ff7900]/40 px-4 py-2 rounded-full">
 
                 Project Inquiry
 
               </span>
 
-              <h2 className="text-4xl font-bold text-white mt-4">
+              <h2 className="text-4xl font-bold text-white mt-8">
 
                 Tell Us About Your Project
 
@@ -165,7 +165,7 @@ export default function ContactForm() {
 
             <form
               onSubmit={handleSubmit}
-              className="space-y-8"
+              className="space-y-10"
             >
 
               <div className="grid md:grid-cols-2 gap-6">
@@ -330,7 +330,7 @@ export default function ContactForm() {
               <PrimaryButton
                 type="submit"
                 loading={loading}
-                className="w-full"
+                className="w-full mt-3"
               >
                 Send Project Inquiry
               </PrimaryButton>
@@ -341,7 +341,7 @@ export default function ContactForm() {
 
           {/* Right */}
 
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-2 space-y-5">
 
             {benefits.map((item) => {
 
@@ -351,7 +351,7 @@ export default function ContactForm() {
 
                 <div
                   key={item.title}
-                  className="rounded-[28px] border border-white/10 bg-[#111827] p-7 hover:border-[#ff7900]/40 transition"
+                  className="rounded-[28px] border border-white/20 bg-[#111827] p-7 hover:border-[#ff7900]/40 transition"
                 >
 
                   <div className="w-14 h-14 rounded-2xl bg-[#ff7900]/10 flex items-center justify-center mb-5">

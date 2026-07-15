@@ -37,7 +37,7 @@ export default function SectionHeader({
       {/* Badge */}
 
       {badge && (
-        <div className="badge badge-outline border-[#ff7900] text-[#ff7900] px-5 py-4 mb-6 text-sm font-medium tracking-wider">
+        <div className="badge badge-outline border-[#ff7900]/70 text-[#ff7900] px-5 py-4 mb-6 text-sm font-medium tracking-wider">
           {badge}
         </div>
       )}
@@ -46,7 +46,7 @@ export default function SectionHeader({
 
       <h2
         className={clsx(
-          "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white",
+          "text-4xl md:text-5xl  font-bold leading-tight text-white",
           titleClassName
         )}
       >
@@ -64,7 +64,7 @@ export default function SectionHeader({
       {description && (
         <p
           className={clsx(
-            "mt-6 text-lg md:text-xl leading-8 text-gray-400",
+            "mt-6 text-lg leading-8 text-white/60",
             descriptionClassName
           )}
         >

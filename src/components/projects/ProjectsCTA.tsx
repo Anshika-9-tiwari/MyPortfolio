@@ -18,14 +18,14 @@ const highlights = [
 
 export default function ProjectsCTA() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] py-24">
+    <section className="relative overflow-hidden bg-[#0B0F19] py-22">
       {/* Glow */}
 
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-16">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 ">
 
-        <div className="rounded-[36px] border border-white/10 bg-white/[0.03] backdrop-blur-xl px-8 py-14 md:px-14 md:py-16">
+        <div className="rounded-[36px] border border-[#ff7900]/20 bg-white/[0.03] backdrop-blur-xl px-8 py-12 md:px-12 md:py-14">
 
           <div className="grid lg:grid-cols-2 gap-14 items-center">
 
@@ -57,12 +57,12 @@ export default function ProjectsCTA() {
 
             <div>
 
-              <div className="grid gap-4">
+              <div className="grid grid-cols-2 gap-4">
 
                 {highlights.map((item) => (
                   <div
                     key={item}
-                    className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4"
+                    className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 px-4 py-4"
                   >
                     <CheckCircle2
                       className="text-[#ff7900]"

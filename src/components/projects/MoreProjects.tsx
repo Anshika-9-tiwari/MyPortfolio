@@ -20,7 +20,7 @@ const spans = [
 export default function MoreProjects() {
   return (
     <section className="bg-[#0B0F19] py-24">
-      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <SectionHeader
           badge="🚀 Portfolio Showcase"

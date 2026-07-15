@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FounderStory() {
   return (
-    <section className="bg-[#0B0F19] px-8 lg:px-16 py-20 border-b border-white/10">
+    <section className="bg-[#0B0F19] px-8 lg:px-14 py-20 border-b border-white/10">
       <div className="grid lg:grid-cols-2 gap-12 items-center ">
         
         <div className="join join-vertical w-full bg-white/5 border border-white/10 rounded-3xl overflow-hidden">
@@ -27,7 +27,7 @@ export default function FounderStory() {
         </div>
 
         <div>
-          <div className="badge badge-outline border-[#ff7900] text-[#ff7900] p-4 mb-6">
+          <div className="badge badge-outline border-[#ff7900]/70 text-[#ff7900] p-4 mb-6">
             Founder Story
           </div>
 

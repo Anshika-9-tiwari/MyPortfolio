@@ -33,15 +33,15 @@ const contactInfo = [
 
 export default function ContactHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-40 pb-24">
+    <section className="relative overflow-hidden bg-[#0B0F19] pt-40 pb-20 border-b-2 border-dashed border-[#ff7900]/30">
 
       {/* Glow */}
 
       <div className="absolute right-0 top-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-8 lg:px-16">
+      <div className="max-w-7xl mx-auto px-8 lg:px-14">
 
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid lg:grid-cols-2 gap-18 items-center">
 
           {/* LEFT */}
 
@@ -141,12 +141,12 @@ export default function ContactHero() {
 
             {/* Glow */}
 
-            <div className="absolute w-80 h-80 rounded-full bg-[#ff7900]/15 blur-[150px]" />
+            <div className="absolute w-50 h-50 rounded-full bg-[#ff7900]/15 blur-[180px]" />
 
             {/* Browser */}
 
             <div className="relative w-full max-w-[620px] rounded-[30px] overflow-hidden ">
-              <div className="relative aspect-[16/10]">
+              <div className="relative aspect-[13/10]">
 
                 <Image
                   src="/projects/home_hero-removebg.png"
@@ -161,30 +161,24 @@ export default function ContactHero() {
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute -left-6 top-10 rounded-2xl border border-white/10 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute left-6 top-12 -rotate-z-6 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
 
               <h4 className="text-3xl font-bold text-[#ff7900]">
-
                 24h
-
               </h4>
 
               <p className="text-gray-400 text-sm">
-
                 Average Response
-
               </p>
 
             </div>
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute -right-6 bottom-15 rounded-2xl border border-white/10 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute right-6 bottom-25 rotate-z-12 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
 
               <h4 className="text-3xl font-bold text-white">
-
                 100%
-
               </h4>
 
               <p className="text-gray-400 text-sm">

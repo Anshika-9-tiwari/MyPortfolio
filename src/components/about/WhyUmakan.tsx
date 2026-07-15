@@ -25,7 +25,7 @@ const technologies = [
 
 export default function WhyUmakan() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-16 py-20">
+    <section className="bg-[#0B0F19] px-6 lg:px-14 py-20">
       {/* Header */}
       <SectionHeader
         badge="⭐ Why UMAKAN"

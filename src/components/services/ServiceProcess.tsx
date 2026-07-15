@@ -50,8 +50,8 @@ const processSteps = [
 
 export default function ServiceProcess() {
   return (
-    <section className="bg-[#0B0F19] py-24 overflow-hidden">
-      <div className="px-6 lg:px-16">
+    <section className="bg-[#0B0F19] py-20 overflow-hidden">
+      <div className="px-6 lg:px-14">
         <SectionHeader
           badge="⚙ Our Process"
           title="How We Build"

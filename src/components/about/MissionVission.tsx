@@ -6,7 +6,7 @@ import GlassCard from "../shared/GlassCard";
 
 export default function MissionVision() {
   return (
-    <section className="bg-[#0B0F19] px-8 lg:px-16 py-20 border-b border-white/5">
+    <section className="bg-[#0B0F19] px-8 lg:px-14 py-20 border-b border-white/5">
       
       {/* Heading */}
       <SectionHeader
@@ -17,7 +17,7 @@ export default function MissionVision() {
       />
 
       {/* Cards */}
-      <div className="grid md:grid-cols-2 gap-8 mt-16">
+      <div className="grid md:grid-cols-2 gap-8 mt-14">
         
         {/* Mission */}
         <GlassCard>
