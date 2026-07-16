@@ -77,7 +77,7 @@ export default function ProjectsCTA() {
 
               </div>
 
-              <div className="flex flex-wrap gap-4 mt-10">
+              <div className="flex flex-col gap-4 mt-10">
 
                 <PrimaryButton
                   href="/contact"

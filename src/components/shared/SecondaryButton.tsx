@@ -41,7 +41,7 @@ export default function SecondaryButton({
 }: SecondaryButtonProps) {
   const buttonClass = clsx(
     "inline-flex items-center justify-center gap-2 rounded-xl font-medium transition-all duration-300",
-    "border border-white/15 bg-white/5 text-white backdrop-blur-md",
+    "border border-[#ff7900]/30 bg-white/5 text-white backdrop-blur-md",
     "hover:border-[#ff7900]/60 hover:bg-[#ff7900]/5 hover:text-[#ff7900]",
     "hover:-translate-y-1 hover:shadow-md hover:shadow-[#ff7900]/10",
     "disabled:opacity-60 disabled:cursor-not-allowed",

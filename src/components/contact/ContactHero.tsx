@@ -39,7 +39,7 @@ export default function ContactHero() {
 
       <div className="absolute right-0 top-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-8 lg:px-14">
+      <div className="max-w-7xl mx-auto px-8 lg:px-12">
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
@@ -95,11 +95,11 @@ export default function ContactHero() {
                 const Card = (
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-5 hover:border-[#ff7900]/30 transition">
 
-                    <div className="w-12 h-12 rounded-xl bg-[#ff7900]/10 flex items-center justify-center">
+                    <div className="w-11 h-11 rounded-xl bg-[#ff7900]/10 flex items-center justify-center">
 
                       <Icon
                         className="text-[#ff7900]"
-                        size={22}
+                        size={20}
                       />
 
                     </div>
@@ -161,7 +161,7 @@ export default function ContactHero() {
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute left-6 top-12 -rotate-z-6 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute -left-8 top-12 -rotate-z-3 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
 
               <h4 className="text-3xl font-bold text-[#ff7900]">
                 24h
@@ -175,7 +175,7 @@ export default function ContactHero() {
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute right-6 bottom-25 rotate-z-12 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute -right-8 bottom-25  rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
 
               <h4 className="text-3xl font-bold text-white">
                 100%

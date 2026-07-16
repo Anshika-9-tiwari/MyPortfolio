@@ -57,7 +57,7 @@ const industries = [
 export default function IndustriesWeServe() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-8 lg:px-14">
+      <div className="max-w-7xl mx-auto px-8 lg:px-13">
 
         <SectionHeader
           badge="🏢 Industries"

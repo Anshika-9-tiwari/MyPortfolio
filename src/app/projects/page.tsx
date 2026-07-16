@@ -7,7 +7,7 @@ import { featuredProjects } from '@/data/featuredProjects';
 import MoreProjects from '@/components/projects/MoreProjects';
 import DevelopmentProcess from '@/components/projects/DevelopmentProcess';
 import ProjectsCTA from '@/components/projects/ProjectsCTA';
-import Testimonials from '@/components/home/Testimonials';
+import Testimonials from '@/components/home/HomeTestimonials';
 
 
 export default function Projects() {

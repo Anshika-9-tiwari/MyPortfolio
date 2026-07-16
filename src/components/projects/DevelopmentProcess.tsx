@@ -147,7 +147,7 @@ export default function DevelopmentProcess() {
 
               <span
                 key={tech}
-                className="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-gray-400 hover:border-[#ff7900] hover:text-[#ff7900] transition-all duration-300"
+                className="px-5 py-2 rounded-full border border-[#ff7900]/20 bg-white/5 text-gray-400 hover:border-[#ff7900] hover:text-[#ff7900] transition-all duration-300"
               >
                 {tech}
               </span>

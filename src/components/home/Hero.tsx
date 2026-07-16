@@ -50,13 +50,13 @@ export default function Hero() {
           <div className="absolute inset-0 bg-[#ff7900] blur-[100px] opacity-20"></div>
 
           {/* Floating Card 1 */}
-          <div className="absolute top-4 -left-2 md:left-0 bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl px-4 py-3 z-20 text-center">
-            <p className="text-md text-gray-300">Projects Delivered</p>
+          <div className="absolute top-4 -left-2 md:left-0 bg-white/5 backdrop-blur-xl border border-[#ff7900]/30 rounded-2xl px-4 py-3 z-20 text-center">
+            <p className="text-md text-gray-200">Projects Delivered</p>
             <h4 className="text-xl font-bold text-[#ff7900]">30+</h4>
           </div>
 
           {/* Floating Card 2 */}
-          <div className="absolute bottom-6 -right-2 md:right-0 bg-white/10 backdrop-blur-2xl border border-white/10 rounded-2xl px-4 py-3 z-20 text-center">
+          <div className="absolute bottom-6 -right-2 md:right-0 bg-white/10 backdrop-blur-2xl border border-[#ff7900]/30 rounded-2xl px-4 py-3 z-20 text-center">
             <p className="text-md text-gray-200">Client Satisfaction</p>
             <h4 className="text-xl font-bold text-[#ff7900]">100%</h4>
           </div>

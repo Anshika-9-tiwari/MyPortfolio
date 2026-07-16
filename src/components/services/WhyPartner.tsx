@@ -69,7 +69,7 @@ const stats = [
 
 export default function WhyPartner() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-14 py-20">
+    <section className="bg-[#0B0F19] px-6 lg:px-12 py-20">
 
       {/* Heading */}
       <SectionHeader

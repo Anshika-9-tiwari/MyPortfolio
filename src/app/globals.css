@@ -9,3 +9,32 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* React Slick */
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-dots {
+  bottom:-45px;
+}
+
+.slick-dots li button:before {
+  color: #ff7900 !important;
+  opacity: 0.35;
+  font-size: 8px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff7900 !important;
+  opacity: 1;
+}

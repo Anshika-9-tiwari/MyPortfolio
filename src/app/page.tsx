@@ -3,7 +3,7 @@ import FeaturedProjects from "@/components/home/FeaturedProjects";
 import Hero from "@/components/home/Hero";
 import ProjectsFAQ from "@/components/home/ProjectsFAQ";
 import Services from "@/components/home/Services";
-import Testimonials from "@/components/home/Testimonials";
+import Testimonials from "@/components/home/HomeTestimonials";
 import TrustedStats from "@/components/home/TrustedState";
 import WhyChooseUs from "@/components/home/WhyChooseMe";
 import IndustriesWeServe from "@/components/services/IndustriesWeServe";
