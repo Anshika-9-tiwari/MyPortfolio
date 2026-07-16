@@ -18,12 +18,12 @@ const highlights = [
 
 export default function ProjectsCTA() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] py-22">
+    <section className="relative overflow-hidden bg-[#0B0F19] py-20">
       {/* Glow */}
 
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 ">
+      <div className="relative max-w-6xl mx-auto px-6 lg:px-14 ">
 
         <div className="rounded-[36px] border border-[#ff7900]/20 bg-white/[0.03] backdrop-blur-xl px-8 py-12 md:px-12 md:py-14">
 
@@ -57,7 +57,7 @@ export default function ProjectsCTA() {
 
             <div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-2 gap-4">
 
                 {highlights.map((item) => (
                   <div

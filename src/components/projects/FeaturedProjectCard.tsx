@@ -32,7 +32,7 @@ export default function FeaturedProjectCard({
 }: FeaturedProjectCardProps) {
   return (
     <section className="bg-[#0B0F19] py-16">
-      <div className="max-w-7xl mx-auto px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-14">
 
         <div
           className={`grid lg:grid-cols-2 gap-16 items-center ${

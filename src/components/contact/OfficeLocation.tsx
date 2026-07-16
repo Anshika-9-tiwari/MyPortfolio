@@ -61,11 +61,11 @@ export default function OfficeLocation() {
 
           <div className="lg:col-span-3 rounded-[30px] border border-[#ff7900]/40 bg-[#111827] p-8">
 
-            <span className="text-[#ff7900] font-medium border border-[#ff7900]/50 rounded-full px-4 py-2">
+            <span className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-4 py-4 rounded-full">
               📍Let's Connect
             </span>
 
-            <h2 className="text-3xl font-semibold text-white mt-5">
+            <h2 className="text-[28px] md:text-3xl font-semibold text-white mt-5">
                Based in New Delhi, serving clients across India and worldwide through remote collaboration and on-site consultations when required.
             </h2>
 
@@ -75,7 +75,7 @@ export default function OfficeLocation() {
               we'd love to hear from you.
             </p>
 
-            <div className="space-y-5 grid grid-cols-2 gap-4 mt-10">
+            <div className="space-y-4 grid lg:grid-cols-2 gap-4 mt-10">
 
               {officeInfo.map((item) => {
 

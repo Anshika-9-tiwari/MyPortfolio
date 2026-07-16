@@ -7,6 +7,7 @@ import { featuredProjects } from '@/data/featuredProjects';
 import MoreProjects from '@/components/projects/MoreProjects';
 import DevelopmentProcess from '@/components/projects/DevelopmentProcess';
 import ProjectsCTA from '@/components/projects/ProjectsCTA';
+import Testimonials from '@/components/home/Testimonials';
 
 
 export default function Projects() {
@@ -26,6 +27,7 @@ export default function Projects() {
 
       <MoreProjects/>
       <DevelopmentProcess/>
+      <Testimonials/>
       <ProjectsCTA/>
     </main>
   );

@@ -7,7 +7,7 @@ import SecondaryButton from "../shared/SecondaryButton";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-[#0B0F19] text-white px-7 lg:px-14 pt-35 md:pt-25 pb-12 md:pb-0 overflow-hidden">
+    <section className="min-h-screen bg-[#0B0F19] text-white px-7 lg:px-14 pt-35 md:pt-35  pb-12 md:pb-0 overflow-hidden">
       <div className="grid lg:grid-cols-2 gap-14 items-center min-h-screen">
         
         {/* LEFT */}

@@ -33,7 +33,7 @@ const contactInfo = [
 
 export default function ContactHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-40 pb-20 border-b-2 border-dashed border-[#ff7900]/30">
+    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b-2 border-dashed border-[#ff7900]/30">
 
       {/* Glow */}
 
@@ -41,7 +41,7 @@ export default function ContactHero() {
 
       <div className="max-w-7xl mx-auto px-8 lg:px-14">
 
-        <div className="grid lg:grid-cols-2 gap-18 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           {/* LEFT */}
 

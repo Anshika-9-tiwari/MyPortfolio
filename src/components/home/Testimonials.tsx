@@ -85,6 +85,13 @@ export default function Testimonials() {
           centerMode: false,
         },
       },
+       {
+        breakpoint: 640,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+        },
+      },
     ],
   };
 

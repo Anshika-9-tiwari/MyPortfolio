@@ -139,7 +139,7 @@ export default function ContactForm() {
       id="contact-form"
       className="bg-[#0B0F19] py-20 border-b border-dashed border-[#ff7900]/20"
     >
-      <div className="max-w-7xl mx-auto px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-8 lg:px-14">
 
         <div className="grid lg:grid-cols-5 gap-10">
 
@@ -149,7 +149,7 @@ export default function ContactForm() {
 
             <div className="mb-10">
 
-              <span className="text-[#ff7900] font-medium border border-[#ff7900]/40 px-4 py-2 rounded-full">
+              <span className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-5 py-4 rounded-full">
 
                 Project Inquiry
 

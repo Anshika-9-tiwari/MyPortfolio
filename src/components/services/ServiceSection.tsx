@@ -12,7 +12,7 @@ import { servicesDetails } from "@/data/services";
 
 export default function ServicesSection() {
   return (
-    <section className="bg-[#0B0F19] py-22">
+    <section className="bg-[#0B0F19] py-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-14">
 
         <SectionHeader
@@ -39,6 +39,7 @@ export default function ServicesSection() {
                   className={`grid lg:grid-cols-2 items-center ${
                     index % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
                   }`}
+                  id={service.id}
                 >
 
                   {/* Image */}
@@ -56,7 +57,7 @@ export default function ServicesSection() {
 
                   {/* Content */}
 
-                  <div className="p-8 lg:p-12">
+                  <div className="p-6 lg:p-12">
 
                     <h2 className="text-3xl lg:text-4xl font-bold text-white">
 

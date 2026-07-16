@@ -80,7 +80,7 @@ const technologies = [
 export default function DevelopmentProcess() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-14">
 
         <SectionHeader
           badge="⚙️ Our Process"

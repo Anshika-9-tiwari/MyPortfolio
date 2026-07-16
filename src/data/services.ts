@@ -6,6 +6,7 @@ import {
   Wrench,
 } from "lucide-react";
 
+
 export const services = [
   {
     icon: Code2,
@@ -38,10 +39,9 @@ export const services = [
 ];
 
 
-
-
 export const servicesDetails = [
   {
+    id:'web-development',
     icon: Code2,
     image: "/projects/custome_web.jpg",
     title: "Custom Web Development",
@@ -59,6 +59,7 @@ export const servicesDetails = [
   },
 
   {
+    id:'wordpress',
     icon: Globe,
     image: "/projects/home_web.jpg",
     title: "WordPress Development",
@@ -76,6 +77,7 @@ export const servicesDetails = [
   },
 
   {
+    id:'ecommerce',
     icon: ShoppingCart,
     image: "/projects/service_ecommerce.jpeg",
     title: "E-Commerce Development",
@@ -93,6 +95,7 @@ export const servicesDetails = [
   },
 
   {
+    id:'support',
     icon: Wrench,
     image: "/projects/web_hosting.jpg",
     title: "Support & Maintenance",

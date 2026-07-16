@@ -5,7 +5,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 export default function FeaturedProjects() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-14">
 
         <SectionHeader
           badge="🚀 Featured Case Studies"
@@ -19,13 +19,14 @@ export default function FeaturedProjects() {
         <div className="flex flex-wrap justify-center gap-4 mt-10">
 
           {[
-            "AI Platforms",
-            "Admin Panel",
-            "Business Websites",
-            "Job Portal",
-            "Business Automation",
             "Dashboard",
-            "Portfolio"
+            "Portfolio",
+            "Job Portal",
+            "Admin Panel",
+            "Education",
+            "Business Websites",
+            "AI Platforms",
+            "Business Automation",
           ].map((item) => (
             <span
               key={item}

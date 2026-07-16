@@ -39,7 +39,7 @@ const projects = [
 
 export default function ProjectsHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-40 pb-20 border-b-2 border-dashed border-[#ff7900]/10">
+    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b-2 border-dashed border-[#ff7900]/10">
 
       {/* Background Blur */}
 
@@ -149,7 +149,7 @@ export default function ProjectsHero() {
 
           {/* RIGHT */}
 
-          <div className="relative hidden lg:flex  justify-center h-[620px]">
+          <div className="relative hidden lg:flex  justify-center h-[600px]">
 
             {projects.map((project) => (
 

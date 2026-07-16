@@ -1,7 +1,7 @@
 'use client';
 export default function AboutHero() {
   return (
-    <section className="bg-[#0B0F19] text-white px-8 lg:px-14 pt-40 pb-22 border-b border-white/5 backdrop-blur-xl relative overflow-hidden ">
+    <section className="bg-[#0B0F19] text-white px-8 lg:px-14 pt-40 pb-18 border-b border-white/5 backdrop-blur-xl relative overflow-hidden ">
        <div className="absolute top-0 left-0 w-72 h-72 bg-[#ff7900] opacity-20 blur-[150px]"></div>
        <div className="absolute bottom-0 right-0 w-72 h-72 bg-orange-500 opacity-20 blur-[150px]"></div>
       <div className="max-w-5xl mx-auto text-center">
