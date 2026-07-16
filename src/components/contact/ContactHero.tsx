@@ -39,9 +39,9 @@ export default function ContactHero() {
 
       <div className="absolute right-0 top-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-8 lg:px-13">
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-17 items-center">
 
           {/* LEFT */}
 
@@ -53,7 +53,7 @@ export default function ContactHero() {
 
             </div>
 
-            <h1 className="mt-8 text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="mt-8 text-5xl lg:text-[54px] font-bold text-white leading-tight">
 
               Let's Build Something
 
@@ -146,7 +146,7 @@ export default function ContactHero() {
             {/* Browser */}
 
             <div className="relative w-full max-w-[620px] rounded-[30px] overflow-hidden ">
-              <div className="relative aspect-[13/10]">
+              <div className="relative aspect-[14/10]">
 
                 <Image
                   src="/projects/home_hero-removebg.png"
