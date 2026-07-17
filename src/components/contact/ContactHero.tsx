@@ -33,7 +33,7 @@ const contactInfo = [
 
 export default function ContactHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b-2 border-dashed border-[#ff7900]/30">
+    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b-2 border-dashed border-[#ff7900]/20">
 
       {/* Glow */}
 

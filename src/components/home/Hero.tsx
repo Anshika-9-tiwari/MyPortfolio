@@ -16,7 +16,7 @@ export default function Hero() {
             🔥 Digital Agency for Modern Businesses
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-[56px] font-bold leading-tight">
             We Build Websites That{" "}
             <span className="text-[#ff7900]">Grow Your Business</span>
           </h1>

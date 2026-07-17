@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { defaultMetadata } from "@/lib/seo";
 import { Toaster } from "react-hot-toast";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -7,18 +7,12 @@ import ContactSticky from "@/components/contactstickyicon";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 
+export const metadata = defaultMetadata;
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = {
-  title: "Umakan Technologies",
-  description: "Umakan Technologies provides web development services",
-  icons: {
-    icon: "/umakan_logo.png",
-  },
-};
 
 export default function RootLayout({
   children,

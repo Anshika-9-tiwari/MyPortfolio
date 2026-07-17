@@ -13,3 +13,20 @@ export default function ThankYou() {
     </section>
   );
 }
+
+// Privacy policy
+// export const metadata = createMetadata({
+//   title: "Privacy Policy",
+//   description:
+//     "Read UMAKAN Technologies' Privacy Policy to understand how we collect, use, and protect your personal information.",
+//   path: "/privacy-policy",
+// });
+
+// terms and conditons
+
+// export const metadata = createMetadata({
+//   title: "Terms & Conditions",
+//   description:
+//     "Review the Terms & Conditions for using UMAKAN Technologies' website and services.",
+//   path: "/terms-and-conditions",
+// });
