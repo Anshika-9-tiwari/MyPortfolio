@@ -6,6 +6,7 @@ import WhatsappSticky from "@/components/whatsappicon";
 import ContactSticky from "@/components/contactstickyicon";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
+import StructuredData from "@/components/seo/StructuredData";
 
 export const metadata = defaultMetadata;
 
@@ -24,7 +25,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} antialiased`}
       >
+
+        <StructuredData />
         <Navbar/>
+
         {children}
         
         <Toaster

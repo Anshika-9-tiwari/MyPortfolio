@@ -22,7 +22,7 @@ const contactInfo = [
     icon: Mail,
     title: "Email",
     value: "contact@umakan.in",
-    href: "mailto:contact@umakan.in",
+    href: "mailto:contact@umakantechnologies.in",
   },
   {
     icon: MapPin,
@@ -41,7 +41,7 @@ export default function ContactHero() {
 
       <div className="max-w-7xl mx-auto px-8 lg:px-13">
 
-        <div className="grid lg:grid-cols-2 gap-17 items-center">
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
 
           {/* LEFT */}
 
@@ -86,7 +86,7 @@ export default function ContactHero() {
 
             {/* Contact */}
 
-            <div className="grid sm:grid-cols-3 gap-6 mt-14">
+            <div className="grid sm:grid-cols-3 gap-4 mt-14">
 
               {contactInfo.map((item) => {
 

@@ -8,7 +8,6 @@ import {
   FaWhatsapp,
   FaGithub,
 } from "react-icons/fa";
-import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 
 const quickLinks = [
@@ -47,7 +46,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#070B14] border-t border-white/20 px-8 lg:px-16 pt-14 pb-6">
+    <footer className="bg-[#070B14] border-t border-white/20 px-8 lg:px-14 pt-14 pb-6">
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         {/* Column 1 */}
@@ -116,11 +115,11 @@ export default function Footer() {
 
           <div className="space-y-4 text-gray-400">
             <a
-              href="mailto:contact@umakan.in"
+              href="mailto:contact@umakantechnologies.in"
               className="flex items-center gap-3 hover:text-[#ff7900] transition"
             >
               <Mail size={18} className="text-[#ff7900]" />
-              contact@umakan.in
+              contact@umakantechnologies.in
             </a>
 
             <a
@@ -132,13 +131,13 @@ export default function Footer() {
             </a>
 
             <p className="flex items-center gap-3">
-              <MapPin size={18} className="text-[#ff7900]" />
-              New Delhi, Okhla Phase-1, India
+              <MapPin size={28} className="text-[#ff7900]" />
+               Mavi Mohalla, Tehkhand Village, Okhla Phase 1, New Delhi - 110020, India
             </p>
           </div>
 
           {/* Social */}
-          <div className="flex flex-wrap gap-6 mt-8">
+          <div className="flex flex-wrap gap-4 mt-8">
             {socialLinks.map((social, index) => (
               <SecondaryButton
                 key={index}
