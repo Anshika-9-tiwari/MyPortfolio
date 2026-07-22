@@ -14,7 +14,7 @@ const projects = [
   {
     title: "i-Lumber.ai",
     href: "https://i-lumber.ai",
-    image: "/projects/ilumber.png",
+    image: "/projects/ilumber.webp",
     rotate: "-rotate-5",
     top: "top-20",
     right: "right-0",
@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Flex Accountant",
     href: "https://flex-accountant.com",
-    image: "/projects/flex_accountant.png",
+    image: "/projects/flex_accountant.webp",
     rotate: "rotate-3",
     top: "top-38",
     right: "right-20",
@@ -30,7 +30,7 @@ const projects = [
   {
     title: "DIAC",
     href: "https://diac.co.in",
-    image: "/projects/diacwebsite.png",
+    image: "/projects/diacwebsite.webp",
     rotate: "-rotate-2",
     top: "top-52",
     right: "right-8",

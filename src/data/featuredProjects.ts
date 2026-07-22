@@ -83,7 +83,7 @@ export const featuredProjects = [
       "Mobile-first responsive design",
     ],
 
-    image: "/projects/flex_accountant.webp",
+    image: "/projects/flex_accountant.png",
 
     live: "https://flex-accountant.com",
   },
