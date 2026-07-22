@@ -43,7 +43,7 @@ export const servicesDetails = [
   {
     id:'web-development',
     icon: Code2,
-    image: "/projects/custome_web.jpg",
+    image: "/projects/custome_web.webp",
     title: "Custom Web Development",
     description:
       "Build scalable, secure, and high-performance web applications tailored to your business goals and workflows.",

@@ -151,8 +151,26 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 mt-12 pt-6 text-center text-gray-500">
-        © 2025 UMAKAN Technologies. All Rights Reserved.
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-t border-white/10 pt-6 mt-8">
+        <p className="text-sm text-gray-500">
+          © {new Date().getFullYear()} UMAKAN Technologies. All rights reserved.
+        </p>
+
+        <div className="flex items-center gap-6 text-sm">
+          <Link
+            href="/privacy-policy"
+            className="text-gray-500 hover:text-[#ff7900] transition"
+          >
+            Privacy Policy
+          </Link>
+
+          <Link
+            href="/terms-and-conditions"
+            className="text-gray-500 hover:text-[#ff7900] transition"
+          >
+            Terms & Conditions
+          </Link>
+        </div>
       </div>
     </footer>
   );

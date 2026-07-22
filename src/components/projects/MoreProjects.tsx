@@ -36,7 +36,7 @@ export default function MoreProjects() {
             <Link
               key={project.title}
               href={project.live}
-              target="_blank"
+              target="blank"
               className={`group relative overflow-hidden rounded-[28px] border border-white/10 ${spans[index]}`}
             >
 

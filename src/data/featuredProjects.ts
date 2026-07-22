@@ -36,7 +36,7 @@ export const featuredProjects = [
       "Scalable architecture",
     ],
 
-    image: "/projects/ilumber.png",
+    image: "/projects/ilumber.webp",
 
     live: "https://i-lumber.ai",
   },
@@ -73,6 +73,7 @@ export const featuredProjects = [
       "JWT Auth",
       "Tailwind CSS",
       "REST API",
+      "Nodemailer",
     ],
 
     businessImpact: [
@@ -82,7 +83,7 @@ export const featuredProjects = [
       "Mobile-first responsive design",
     ],
 
-    image: "/projects/flex_accountant.png",
+    image: "/projects/flex_accountant.webp",
 
     live: "https://flex-accountant.com",
   },
@@ -125,7 +126,7 @@ export const featuredProjects = [
       "Faster website performance",
       "Enhanced lead generation",
     ],
-    image: "/projects/diacwebsite.png",
+    image: "/projects/diacwebsite.webp",
     live: "https://diac.co.in",
   },
 ];

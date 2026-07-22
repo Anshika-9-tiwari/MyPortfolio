@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "KP Automation",
     category: "Business Website",
-    image: "/projects/kpautomation.png",
+    image: "/projects/kpautomation.webp",
     live: "https://kpautomation.co.in",
     tech: [
       "Next.js",
@@ -17,7 +17,7 @@ export const projects = [
   {
     title: "i-Takeoff.ai",
     category: "CPA Firm",
-    image: "/projects/itakeoff.png",
+    image: "/projects/itakeoff.webp",
     live: "https://i-takeoff.ai",
     tech: [
       "Wordpress"
@@ -27,7 +27,7 @@ export const projects = [
     title: "iAccounts.ai",
     category: "CPA Firm",
     
-    image: "/projects/iaccounts.ai.png",
+    image: "/projects/iaccounts.ai.webp",
     live: "https://iaccounts.ai",
     tech: [
       "Wordpress"
@@ -49,7 +49,7 @@ export const projects = [
     title: "Advance Finserve",
     category: "Business Website",
     image: "/projects/advancefinserve.png",
-    live: "https://anshika-tiwari.vercel.app/",
+    live: "https://advancefinserve.com/",
     tech: [
       "Wordpress"
     ],
@@ -57,7 +57,7 @@ export const projects = [
   {
     title: "Attendance System",
     category: "Business Automation",
-    image: "/projects/attendanceapp.png",    
+    image: "/projects/attendanceapp.webp",    
     live: "https://va-attendance-app.vercel.app/",
     tech: [
       "Next.js",
@@ -105,7 +105,7 @@ export const Homeprojects = [
     title: "DIAC Business Website",
     description:
       "A complete redesign of a professional education website focused on modern branding, improved responsiveness, and better lead generation.",
-    image: "/projects/diacwebsite.png",
+    image: "/projects/diacwebsite.webp",
     tech: ["Next.js", "Tailwind"],
     result: "Improved digital presence",
   },
@@ -113,7 +113,7 @@ export const Homeprojects = [
     title: "Flex-Accountant Job Portal",
     description:
       "A professional recruitment platform connecting employers with qualified accounting professionals through a seamless hiring experience.",
-    image: "/projects/jobportal.png",
+    image: "/projects/jobportal.webp",
     tech: ["Next.js", "PostgreSQL", "Prisma","JWT"],
     result: "Improved digital presence 90%",
   },
@@ -121,7 +121,7 @@ export const Homeprojects = [
     title: "Attendance Management System",
     description:
       "Role-based attendance system with tracking, leave management, and reporting.",
-    image: "/projects/attendanceapp.png",
+    image: "/projects/attendanceapp.webp",
     tech: ["MERN", "MongoDB"],
     result: "Improved team efficiency",
   },

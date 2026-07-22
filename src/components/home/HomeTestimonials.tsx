@@ -2,13 +2,19 @@
 
 import Slider from "react-slick";
 import { Star } from "lucide-react";
-import {testimonials} from '@/data/testimonials'
+
+import { testimonials } from "@/data/testimonials";
 import SectionHeader from "../shared/SectionHeader";
 import GlassCard from "../shared/GlassCard";
 
-
 const clientEmojis = [
-  "👨‍💼", "👩‍💼", "🧑‍💻", "👨‍🔧", "👩‍💻", "👨‍🚀", "🧑‍🚀",
+  "👨‍💼",
+  "👩‍💼",
+  "🧑‍💻",
+  "👨‍🔧",
+  "👩‍💻",
+  "👨‍🚀",
+  "🧑‍🚀",
 ];
 
 const getClientEmoji = (index: number) => {
@@ -18,7 +24,7 @@ const getClientEmoji = (index: number) => {
 export default function HomeTestimonials() {
   const settings = {
     dots: true,
-    infinite: testimonials.length > 3,
+    infinite: testimonials.length > 1,
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 600,
@@ -27,32 +33,58 @@ export default function HomeTestimonials() {
     arrows: false,
     centerMode: false,
     adaptiveHeight: false,
+    swipeToSlide: true,
+    touchMove: true,
+    pauseOnHover: true,
 
     responsive: [
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1,
         },
       },
+
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
+
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          variableWidth: false,
+          adaptiveHeight: true,
+        },
+      },
+
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          variableWidth: false,
+          adaptiveHeight: true,
+          dots: true,
         },
       },
     ],
   };
 
   return (
-    <section className="bg-[#0B0F19] py-16  lg:py-20 overflow-hidden">
-      <div className="px-5 sm:px-6 lg:px-14">
+    <section className="overflow-hidden bg-[#0B0F19] py-14 sm:py-16 lg:py-20">
+      <div className="w-full px-4 sm:px-6 lg:px-14">
+
+        {/* Header */}
+
         <SectionHeader
           badge="💬 Client Testimonials"
           title="What Our Clients"
@@ -60,50 +92,100 @@ export default function HomeTestimonials() {
           description="We take pride in delivering quality digital solutions that create measurable impact for businesses."
         />
 
-        <div className="mt-14 md:mt-16">
+        {/* Slider */}
+
+        <div className="testimonial-slider mt-10 w-full min-w-0 sm:mt-14 md:mt-16">
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <div
-                key={index}
-                className="px-2 md:px-3 h-full"
+                key={`${testimonial.name}-${index}`}
+                className="px-1.5 sm:px-2 md:px-3"
               >
-                <GlassCard className="h-full flex flex-col p-6 md:p-8">
-                  {/* Stars */}
+                <div className="py-1">
+                  <GlassCard
+                    className="
+                      flex
+                      min-h-[320px]
+                      w-full
+                      flex-col
+                      p-5
+                      sm:min-h-[330px]
+                      sm:p-6
+                      md:p-7
+                      lg:p-8
+                    "
+                  >
+                    {/* Stars */}
 
-                  <div className="flex gap-1 mb-5">
-                    {[...Array(5)].map((_, idx) => (
-                      <Star
-                        key={idx}
-                        size={16}
-                        className="fill-[#ff7900] text-[#ff7900]"
-                      />
-                    ))}
-                  </div>
-
-                  {/* Feedback */}
-
-                  <p className="text-gray-300 leading-7 text-[15px] md:text-base flex-1 min-h-[90px]">
-                    "{testimonial.feedback}"
-                  </p>
-
-                  {/* Client */}
-
-                  <div className="flex items-center gap-4 pt-6 mt-6 border-t border-white/5">
-                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[#ff7900]/15 flex items-center justify-center text-2xl shrink-0">
-                      {getClientEmoji(index)}
+                    <div className="mb-4 flex gap-1 sm:mb-5">
+                      {[...Array(5)].map((_, idx) => (
+                        <Star
+                          key={idx}
+                          size={16}
+                          className="fill-[#ff7900] text-[#ff7900]"
+                        />
+                      ))}
                     </div>
 
-                    <div>
-                      <h4 className="text-white font-semibold text-base">
-                        {testimonial.name}
-                      </h4>
+                    {/* Feedback */}
 
-                      <p className="text-gray-400 text-sm">
-                        {testimonial.role}
-                      </p>
+                    <p
+                      className="
+                        flex-1
+                        break-words
+                        text-sm
+                        leading-6
+                        text-gray-300
+                        sm:text-[15px]
+                        sm:leading-7
+                        md:text-base
+                      "
+                    >
+                      &ldquo;{testimonial.feedback}&rdquo;
+                    </p>
+
+                    {/* Client */}
+
+                    <div className="mt-5 flex items-center gap-3 border-t border-white/5 pt-5 sm:mt-6 sm:gap-4 sm:pt-6">
+
+                      {/* Emoji */}
+
+                      <div
+                        className="
+                          flex
+                          h-11
+                          w-11
+                          shrink-0
+                          items-center
+                          justify-center
+                          rounded-full
+                          bg-[#ff7900]/15
+                          text-xl
+                          sm:h-12
+                          sm:w-12
+                          sm:text-2xl
+                          md:h-14
+                          md:w-14
+                        "
+                      >
+                        {getClientEmoji(index)}
+                      </div>
+
+                      {/* Info */}
+
+                      <div className="min-w-0 flex-1">
+                        <h4 className="truncate text-sm font-semibold text-white sm:text-base">
+                          {testimonial.name}
+                        </h4>
+
+                        <p className="mt-0.5 truncate text-xs text-gray-400 sm:text-sm">
+                          {testimonial.role}
+                        </p>
+                      </div>
+
                     </div>
-                  </div>
-                </GlassCard>
+                  </GlassCard>
+                </div>
               </div>
             ))}
           </Slider>

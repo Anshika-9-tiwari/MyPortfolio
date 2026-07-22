@@ -19,7 +19,7 @@ export default function Services() {
 
       {/* Cards */}
 
-      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 mt-16">
+      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-5 mt-16">
 
         {services.map((service) => (
           <FeatureCard

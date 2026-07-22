@@ -7,8 +7,8 @@ import SecondaryButton from "../shared/SecondaryButton";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-[#0B0F19] text-white px-7 lg:px-14 pt-35 md:pt-35  pb-12 md:pb-0 overflow-hidden">
-      <div className="grid lg:grid-cols-2 gap-14 items-center min-h-screen">
+    <section className="min-h-screen bg-[#0B0F19] text-white px-7 lg:px-14 pt-35 md:pt-35 pb-12 md:pb-0 overflow-hidden">
+      <div className="grid lg:grid-cols-2 gap-12 items-center min-h-screen">
         
         {/* LEFT */}
         <div>
@@ -16,15 +16,16 @@ export default function Hero() {
             🔥 Digital Agency for Modern Businesses
           </div>
 
-          <h1 className="text-4xl md:text-[56px] font-bold leading-tight">
+          <h1 className="text-4xl md:text-[58px] font-bold leading-tight">
             We Build Websites That{" "}
             <span className="text-[#ff7900]">Grow Your Business</span>
           </h1>
 
-          <p className="text-gray-400 mt-6 text-lg leading-relaxed max-w-xl">
-            UMAKAN Technology helps startups and businesses build
-            high-performing websites, scalable web applications, and
-            modern digital solutions.
+          <p className="text-gray-400 mt-6 text-lg leading-relaxed max-w-2xl md:text-justify">
+            UMAKAN Technologies provides  "website development, website redesign, custom web applications, WordPress development, eCommerce solutions, business automation, dashboards, admin panels,  maintenance, and other digital development services". 
+            <span className="block mt-1">
+              UMAKAN Technology helps startups and businesses build high-performing websites, scalable web applications, and modern digital solutions.
+            </span>
           </p>
 
           <div className="flex flex-wrap gap-5 mt-10">
@@ -65,8 +66,8 @@ export default function Hero() {
           <div className="relative bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-4 shadow-xl z-10">
             <Image
               src="/hero_img.jpg"
-              alt="Dashboard Preview"
-              width={700}
+              alt="UMAKAN Technologies web development dashboard"
+              width={650}
               height={500}
               className="rounded-2xl object-cover"
               priority
