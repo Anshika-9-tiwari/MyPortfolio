@@ -5,7 +5,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 export default function FeaturedProjects() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <SectionHeader
           badge="🚀 Featured Case Studies"
@@ -17,7 +17,6 @@ export default function FeaturedProjects() {
         {/* Categories */}
 
         <div className="flex flex-wrap justify-center gap-4 mt-10">
-
           {[
             "Dashboard",
             "Portfolio",

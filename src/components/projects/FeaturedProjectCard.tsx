@@ -31,11 +31,11 @@ export default function FeaturedProjectCard({
   reverse = false,
 }: FeaturedProjectCardProps) {
   return (
-    <section className="bg-[#0B0F19] py-16">
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+    <section className="bg-[#0B0F19] py-14">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <div
-          className={`grid lg:grid-cols-2 gap-16 items-center ${
+          className={`grid lg:grid-cols-2 gap-14 items-center ${
             reverse ? "lg:[&>*:first-child]:order-2" : ""
           }`}
         >

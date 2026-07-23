@@ -9,7 +9,7 @@ export default function AboutHero() {
           🔥 About UMAKAN
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        <h1 className="mt-4 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
           Building Digital Solutions That{" "}
           <span className="text-[#ff7900]">Empower Businesses to Scale</span>
         </h1>

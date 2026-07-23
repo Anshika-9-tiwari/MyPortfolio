@@ -6,7 +6,7 @@ import { faqs } from "@/data/faqs";
 export default function ProjectsFAQ() {
   return (
     <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <SectionHeader
           badge="❓ Frequently Asked Questions"
@@ -28,7 +28,7 @@ export default function ProjectsFAQ() {
                 defaultChecked={index === 0}
               />
 
-              <div className="collapse-title text-lg font-semibold text-white group-hover:text-[#ff7900] transition-colors">
+              <div className="collapse-title text-lg font-base text-white/95 group-hover:text-[#ff7900] transition-colors">
                 {faq.question}
               </div>
 

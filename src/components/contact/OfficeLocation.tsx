@@ -12,7 +12,7 @@ const officeInfo = [
   {
     icon: MapPin,
     title: "Office",
-    value: "Remote friendly",
+    value: "Remote Friendly/New Delhi",
     href: "https://maps.google.com/?q=Tehkhand+Village+Mavi+Mohalla+Okhla+Phase+1+New+Delhi+110020",
   },
   {
@@ -24,8 +24,8 @@ const officeInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@umakan.in",
-    href: "mailto:contact@umakan.in",
+    value: "contact@umakantechnologies.com",
+    href: "mailto:contact@umakantechnologies.com",
   },
   {
     icon: MessageCircle,
@@ -40,7 +40,7 @@ export default function OfficeLocation() {
     <section className="bg-[#0B0F19] py-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
-        <div className="grid lg:grid-cols-6 gap-10 items-stretch">
+        <div className="grid lg:grid-cols-7 gap-10 items-stretch">
 
           {/* Google Map */}
 
@@ -59,7 +59,7 @@ export default function OfficeLocation() {
 
           {/* Office Details */}
 
-          <div className="lg:col-span-3 rounded-[30px] border border-[#ff7900]/40 bg-[#111827] p-8">
+          <div className="lg:col-span-4 rounded-[30px] border border-[#ff7900]/40 bg-[#111827] p-6">
 
             <span className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-4 py-4 rounded-full">
               📍Let's Connect
@@ -82,12 +82,12 @@ export default function OfficeLocation() {
                 const Icon = item.icon;
 
                 const content = (
-                  <div className="flex  items-start  gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 hover:border-[#ff7900]/30 transition">
+                  <div className="flex  items-start  gap-4  rounded-2xl border border-white/10 bg-white/5 p-4 hover:border-[#ff7900]/30 transition">
 
-                    <div className="w-12 h-12 rounded-xl bg-[#ff7900]/10 flex items-center justify-center shrink-0">
+                    <div className="w-10 h-10 rounded-xl bg-[#ff7900]/10 flex items-center justify-center shrink-0">
 
                       <Icon
-                        size={22}
+                        size={18}
                         className="text-[#ff7900]"
                       />
 

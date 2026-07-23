@@ -12,8 +12,8 @@ import { servicesDetails } from "@/data/services";
 
 export default function ServicesSection() {
   return (
-    <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+    <section className="bg-[#0B0F19] py-18">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <SectionHeader
           badge="🚀 What We Do"

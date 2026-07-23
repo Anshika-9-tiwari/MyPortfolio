@@ -23,7 +23,7 @@ export default function ProjectsCTA() {
 
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-14 ">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <div className="rounded-[36px] border border-[#ff7900]/20 bg-white/[0.03] backdrop-blur-xl px-8 py-12 md:px-12 md:py-14">
 

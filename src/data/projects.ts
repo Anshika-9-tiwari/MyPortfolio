@@ -104,25 +104,36 @@ export const Homeprojects = [
   {
     title: "DIAC Business Website",
     description:
-      "A complete redesign of a professional education website focused on modern branding, improved responsiveness, and better lead generation.",
+      "A modern education website redesigned for stronger branding, better usability, and lead generation.",
     image: "/projects/diacwebsite.webp",
-    tech: ["Next.js", "Tailwind"],
-    result: "Improved digital presence",
+    tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "DaisyUI"],
+    result: [
+      "Modernized digital presence ",
+      "Better lead generation",
+    ],
   },
+
   {
     title: "Flex-Accountant Job Portal",
     description:
-      "A professional recruitment platform connecting employers with qualified accounting professionals through a seamless hiring experience.",
-    image: "/projects/jobportal.webp",
-    tech: ["Next.js", "PostgreSQL", "Prisma","JWT"],
-    result: "Improved digital presence 90%",
+      "A recruitment platform designed to connect employers with qualified accounting professionals efficiently.",
+    image: "/projects/flex_accountant.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma", "JWT","DaisyUI"],
+    result: [
+      "Simplified hiring process ",
+      "Secure role-based experience",
+    ],
   },
+
   {
-    title: "Attendance Management System",
+    title: "i-lumber",
     description:
-      "Role-based attendance system with tracking, leave management, and reporting.",
-    image: "/projects/attendanceapp.webp",
-    tech: ["MERN", "MongoDB"],
-    result: "Improved team efficiency",
+      "A professional WordPress website built to strengthen the brand and showcase construction-focused services.",
+    image: "/projects/ilumber.webp",
+    tech: ["WordPress", "Elementor"],
+    result: [
+      "Stronger online presence ",
+      " Clear service presentation",
+    ],
   },
 ];

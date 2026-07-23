@@ -19,8 +19,8 @@ const spans = [
 
 export default function MoreProjects() {
   return (
-    <section className="bg-[#0B0F19] py-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+    <section className="bg-[#0B0F19] py-18">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <SectionHeader
           badge="🚀 Portfolio Showcase"
@@ -41,7 +41,6 @@ export default function MoreProjects() {
             >
 
               <div className="relative h-[320px]">
-
                 <Image
                   src={project.image}
                   alt={project.title}

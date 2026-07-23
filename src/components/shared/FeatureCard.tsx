@@ -1,23 +1,15 @@
-"use client";
-
 import Link from "next/link";
 import { LucideIcon, ArrowRight } from "lucide-react";
 import clsx from "clsx";
-import SecondaryButton from "./SecondaryButton";
 
 interface FeatureCardProps {
   icon: LucideIcon;
   title: string;
   description: string;
-
   href?: string;
-
   variant?: "default" | "gradient";
-
   iconBg?: string;
-
   className?: string;
-
   showArrow?: boolean;
 }
 
@@ -34,42 +26,34 @@ export default function FeatureCard({
   const Card = (
     <div
       className={clsx(
-        "group h-auto rounded-3xl border border-[#ff7900]/20 shadow-xl bg-white/5 backdrop-blur-xl p-7 transition-all duration-300",
-        "hover:-translate-y-2 hover:border-[#ff7900]/40 hover:shadow-lg hover:shadow-[#ff7900]/10",
-        variant === "gradient" &&
-          "bg-gradient-to-br from-[#ff7900]/10 via-white/5 to-transparent",
+        "group flex h-full min-h-[300px] flex-col rounded-3xl border border-[#ff7900]/20 bg-white/5 p-6 shadow-xl backdrop-blur-xl transition-all duration-300 sm:p-7",
+        "hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:shadow-lg hover:shadow-[#ff7900]/10",
+        variant === "gradient" && "bg-gradient-to-br from-[#ff7900]/10 via-white/5 to-transparent",
         className
       )}
     >
       {/* Icon */}
-      <div
-        className={clsx(
-          "w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300",
-          iconBg,
-          "group-hover:scale-110"
-        )}
-      >
-        <Icon size={30} className="text-[#ff7900]" />
+      <div className={clsx("mb-6 flex h-14 w-14 items-center justify-center rounded-2xl transition-all duration-300 group-hover:scale-105 sm:h-16 sm:w-16", iconBg)}>
+        <Icon size={28} className="text-[#ff7900]" />
       </div>
 
       {/* Title */}
-      <h3 className="text-2xl font-semibold text-white mb-4">
+      <h3 className="text-xl font-semibold leading-snug text-white sm:text-[22px]">
         {title}
       </h3>
 
       {/* Description */}
-      <p className="text-gray-400 leading-7">
+      <p className="mt-4 text-[15px] leading-7 text-gray-400">
         {description}
       </p>
 
-      {/* Arrow */}
+      {/* Learn More */}
       {showArrow && (
-        <div className="mt-7 flex items-center gap-2 text-[#ff7900] opacity-0 group-hover:opacity-100 transition-all duration-300">
-          <SecondaryButton fullWidth
-           rightIcon={ArrowRight}
-          >
-            Learn More
-        </SecondaryButton>
+        <div className="mt-auto pt-6">
+          <div className="inline-flex items-center gap-2 text-sm font-semibold text-[#ff7900] transition-all duration-300 group-hover:gap-3">
+            <span>Learn More</span>
+            <ArrowRight size={17} className="transition-transform duration-300 group-hover:translate-x-1" />
+          </div>
         </div>
       )}
     </div>

@@ -16,19 +16,19 @@ const contactInfo = [
     icon: Phone,
     title: "Call Us",
     value: "+91 95408 38797",
-    href: "tel:+919540838797",
+    href: "tel:+9195408 38797",
   },
   {
     icon: Mail,
     title: "Email",
-    value: "contact@umakan.in",
-    href: "mailto:contact@umakantechnologies.in",
+    value: "contact@umakantechnologies.com",
+    href: "mailto:contact@umakantechnologies.com",
   },
-  {
-    icon: MapPin,
-    title: "Location",
-    value: "Remote Friendly",
-  },
+  // {
+  //   icon: MapPin,
+  //   title: "Location",
+  //   value: "Remote/New Delhi",
+  // },
 ];
 
 export default function ContactHero() {
@@ -39,39 +39,29 @@ export default function ContactHero() {
 
       <div className="absolute right-0 top-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-8 lg:px-13">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <div className="grid lg:grid-cols-2 gap-14 items-center">
 
           {/* LEFT */}
 
           <div>
-
             <div className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-5 py-4">
-
               💬 Contact Us
-
             </div>
-
-            <h1 className="mt-8 text-5xl lg:text-[54px] font-bold text-white leading-tight">
-
+            <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
               Let's Build Something
-
               <span className="block text-[#ff7900]">
                 Amazing Together
               </span>
-
             </h1>
 
             <p className="mt-8 text-lg leading-8 text-gray-400">
-
               Whether you need a business website, AI-powered platform, e-commerce store, or a custom web application,
               we'd love to hear your ideas.
-
             </p>
 
             {/* Buttons */}
-
             <div className="flex flex-wrap gap-4 mt-10">
 
               <PrimaryButton
@@ -86,7 +76,7 @@ export default function ContactHero() {
 
             {/* Contact */}
 
-            <div className="grid sm:grid-cols-3 gap-4 mt-14">
+            <div className="grid sm:grid-cols-2 gap-6 mt-14">
 
               {contactInfo.map((item) => {
 
@@ -94,12 +84,11 @@ export default function ContactHero() {
 
                 const Card = (
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-5 hover:border-[#ff7900]/30 transition">
-
-                    <div className="w-11 h-11 rounded-xl bg-[#ff7900]/10 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-xl bg-[#ff7900]/10 flex items-center justify-center">
 
                       <Icon
                         className="text-[#ff7900]"
-                        size={20}
+                        size={18}
                       />
 
                     </div>
@@ -146,13 +135,13 @@ export default function ContactHero() {
             {/* Browser */}
 
             <div className="relative w-full max-w-[620px] rounded-[30px] overflow-hidden ">
-              <div className="relative aspect-[14/10]">
+              <div className="relative aspect-[16/10]">
 
                 <Image
                   src="/projects/home_hero-removebg.png"
                   alt="Contact"
                   fill
-                  className="object-cover"
+                  className="object-cover p-1"
                 />
 
               </div>
@@ -161,7 +150,7 @@ export default function ContactHero() {
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute -left-8 top-12 -rotate-z-3 rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute -left-7 top-12 -rotate-z-3 rounded-2xl text-center border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-4">
 
               <h4 className="text-3xl font-bold text-[#ff7900]">
                 24h
@@ -175,16 +164,14 @@ export default function ContactHero() {
 
             {/* Floating Card */}
 
-            <div className="hidden lg:block absolute -right-8 bottom-25  rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-5">
+            <div className="hidden lg:block absolute -right-7 bottom-25 text-center rounded-2xl border border-[#ff7900]/20 bg-[#111827]/95 backdrop-blur-xl p-4">
 
               <h4 className="text-3xl font-bold text-white">
                 100%
               </h4>
 
               <p className="text-gray-400 text-sm">
-
                 Client Satisfaction
-
               </p>
 
             </div>

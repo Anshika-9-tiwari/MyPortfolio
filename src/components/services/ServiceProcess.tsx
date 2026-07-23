@@ -1,10 +1,8 @@
-"use client";
-
 import {
   Search,
   ClipboardList,
   Code2,
- ShieldCheck,
+  ShieldCheck,
   Rocket,
 } from "lucide-react";
 
@@ -15,106 +13,121 @@ const processSteps = [
     step: "01",
     title: "Discovery",
     description:
-      "We understand your business goals, target audience, and project requirements before writing a single line of code.",
+      "We understand your business goals, audience, challenges, and project requirements before development begins.",
     icon: Search,
   },
   {
     step: "02",
     title: "Planning",
     description:
-      "We create the project roadmap, define the architecture, timeline, and choose the best technologies.",
+      "We define the project roadmap, architecture, technology stack, milestones, and delivery timeline.",
     icon: ClipboardList,
   },
   {
     step: "03",
     title: "Development",
     description:
-      "Our team develops fast, scalable, secure, and responsive digital products using modern technologies.",
+      "We build fast, scalable, secure, and responsive digital solutions using modern technologies.",
     icon: Code2,
   },
   {
     step: "04",
     title: "Testing",
     description:
-      "Every project undergoes quality assurance, responsiveness, optimization, and cross-browser testing.",
+      "We test functionality, responsiveness, performance, usability, and cross-browser compatibility.",
     icon: ShieldCheck,
   },
   {
     step: "05",
     title: "Launch",
     description:
-      "We deploy your project, provide technical support, and continuously improve performance.",
+      "We deploy your project, verify production performance, and provide ongoing technical support.",
     icon: Rocket,
   },
 ];
 
 export default function ServiceProcess() {
   return (
-    <section className="bg-[#0B0F19] py-20 overflow-hidden">
-      <div className="px-6 lg:px-12">
+    <section className="overflow-hidden bg-[#0B0F19] py-16 md:py-18 lg:py-20">
+
+      {/* Controlled Container */}
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
+
+        {/* Heading */}
         <SectionHeader
           badge="⚙ Our Process"
-          title="How We Build"
-          highlight="Digital Products"
-          description="A transparent and structured workflow that ensures every project is delivered with quality, speed, and long-term scalability."
+          title="From Idea to"
+          highlight="Digital Success"
+          description="A clear five-step process that transforms your idea into a reliable, scalable, and launch-ready digital product."
         />
 
-        <div className="relative mt-20">
-          {/* Desktop Timeline */}
+        {/* Process */}
+        <div className="relative mt-14 md:mt-16 lg:mt-20">
 
-          <div className="hidden lg:block absolute top-1/2 -translate-y-1/2 left-0 right-0 h-[5px]">
-            <div className="h-full rounded-full bg-gradient-to-r from-[#ff7900] via-[#ff7900]/60 to-[#ff7900]/20" />
+          {/* Desktop Timeline */}
+          <div className="absolute left-[10%] right-[10%] top-5 z-0 hidden h-[2px] lg:block">
+            <div className="h-full w-full bg-gradient-to-r from-[#ff7900]/20 via-[#ff7900] to-[#ff7900]/20" />
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 gap-6 relative ">
-            {processSteps.map((step, index) => {
+          {/* Cards */}
+          <div className="relative z-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
+
+            {processSteps.map((step) => {
               const Icon = step.icon;
 
               return (
-                <div
-                  key={step.step}
-                  className="relative group"
-                >
-                 
+                <div key={step.step} className="group relative flex flex-col">
+
+                  {/* Desktop Timeline Point */}
+                  <div className="relative z-20 mb-7 hidden justify-center lg:flex">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full border-4 border-[#0B0F19] bg-[#ff7900] text-xs font-bold text-white shadow-[0_0_20px_rgba(255,121,0,0.35)]">
+                      {step.step}
+                    </div>
+                  </div>
 
                   {/* Card */}
-                  <div className="relative h-full rounded-[24px] before:absolute before:inset-0 before:rounded-[24px] before:border before:border-white/5 border border-white/10 bg-[#111827] backdrop-blur-xl py-10 px-7 transition-all duration-500 hover:-translate-y-2 shadow-xl hover:border-[#ff7900] hover:shadow-[0_0_40px_rgba(255,121,0,0.15)]">
-                    {/* Number */}
+                  <div className="relative flex h-full min-h-[330px] flex-col overflow-hidden rounded-3xl border border-white/10 bg-[#111827] p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] xl:p-7">
 
-                    <span className="absolute bottom-5 right-6 text-5xl font-black text-white/5 group-hover:text-[#ff7900]/10 transition">
+                    {/* Background Number */}
+                    <span className="pointer-events-none absolute -bottom-2 right-4 text-[72px] font-black leading-none text-white/[0.025] transition-colors duration-300 group-hover:text-[#ff7900]/[0.06]">
                       {step.step}
                     </span>
 
-                    {/* Icon */}
+                    {/* Mobile / Tablet Step */}
+                    <div className="mb-5 flex items-center justify-between lg:hidden">
+                      <span className="text-xs font-bold uppercase tracking-[0.16em] text-[#ff7900]">
+                        Step {step.step}
+                      </span>
 
-                    <div className="w-16 h-16 rounded-2xl bg-[#ff7900]/10 flex items-center justify-center border border-[#ff7900]/20">
-                      <Icon
-                        size={30}
-                        className="text-[#ff7900]"
-                      />
+                      <span className="h-px flex-1 bg-gradient-to-r from-[#ff7900]/30 to-transparent ml-4" />
+                    </div>
+
+                    {/* Icon */}
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[#ff7900]/20 bg-[#ff7900]/10 transition-all duration-300 group-hover:scale-105 group-hover:border-[#ff7900]/40 group-hover:bg-[#ff7900]/15">
+                      <Icon size={27} strokeWidth={1.8} className="text-[#ff7900]" />
                     </div>
 
                     {/* Title */}
-
-                    <h3 className="mt-7 text-2xl font-bold text-white">
+                    <h3 className="mt-6 text-xl font-bold text-white xl:text-[22px]">
                       {step.title}
                     </h3>
 
-                    {/* Divider */}
-
-                    <div className="w-16 h-1 rounded-full bg-[#ff7900] mt-4 mb-5"></div>
+                    {/* Accent */}
+                    <div className="my-4 h-[2px] w-10 rounded-full bg-[#ff7900] transition-all duration-300 group-hover:w-16" />
 
                     {/* Description */}
-
-                    <p className="text-gray-400 leading-7 text-[15px]">
+                    <p className="relative z-10 text-[14px] leading-7 text-gray-400 xl:text-[15px]">
                       {step.description}
                     </p>
+
                   </div>
                 </div>
               );
             })}
+
           </div>
         </div>
+
       </div>
     </section>
   );

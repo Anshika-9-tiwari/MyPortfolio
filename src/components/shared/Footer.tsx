@@ -1,21 +1,14 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin } from "lucide-react";
-import {
-  FaInstagram,
-  FaLinkedin,
-  FaWhatsapp,
-  FaGithub,
-} from "react-icons/fa";
-import SecondaryButton from "./SecondaryButton";
+import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 const quickLinks = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
+  { name: "About Us", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 const services = [
@@ -27,18 +20,22 @@ const services = [
 
 const socialLinks = [
   {
+    name: "Instagram",
     icon: FaInstagram,
     href: "https://instagram.com/",
   },
   {
-    icon: FaLinkedin,
+    name: "LinkedIn",
+    icon: FaLinkedinIn,
     href: "https://www.linkedin.com/in/webdevanshika/",
   },
   {
+    name: "WhatsApp",
     icon: FaWhatsapp,
     href: "https://wa.me/919540838797",
   },
   {
+    name: "GitHub",
     icon: FaGithub,
     href: "https://github.com/Anshika-9-tiwari/",
   },
@@ -46,132 +43,183 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#070B14] border-t border-white/20 px-8 lg:px-14 pt-14 pb-6">
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="relative overflow-hidden border-t border-white/10 bg-[#070B14] text-white">
 
-        {/* Column 1 */}
-        <div>
-          <Link href="/">
-            <Image
-              src="/umakan_logo.png"
-              alt="UMAKAN Logo"
-              width={150}
-              height={45}
-              className="object-contain w-[140px] lg:w-[180px] h-auto"
-            />
-          </Link>
+      {/* Subtle Background Glow */}
+      <div className="pointer-events-none absolute -left-40 bottom-0 h-80 w-80 rounded-full bg-[#ff7900]/5 blur-[130px]" />
+      <div className="pointer-events-none absolute -right-40 top-0 h-80 w-80 rounded-full bg-[#ff7900]/5 blur-[130px]" />
 
-          <p className="text-gray-400 leading-relaxed mt-4">
-            UMAKAN Technologies builds modern websites, scalable web
-            applications, and digital solutions that help businesses grow.
-          </p>
-        </div>
+      <div className="relative mx-auto max-w-7xl px-6 pt-14 sm:px-8 md:pt-16 lg:px-10 lg:pt-20 xl:px-12">
 
-        {/* Column 2 */}
-        <div>
-          <h3 className="text-white font-semibold text-lg mb-5">
-            Quick Links
-          </h3>
+        {/* Main Footer */}
+        <div className="grid gap-12 pb-14 sm:grid-cols-2 lg:grid-cols-[1.5fr_0.7fr_1fr_1.35fr] lg:gap-10 xl:gap-14">
 
-          <ul className="space-y-3 text-gray-400">
-            {quickLinks.map((link) => (
-              <li key={link.name}>
-                <Link
-                  href={link.href}
-                  className="hover:text-[#ff7900] transition duration-300"
-                >
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+          {/* Brand */}
+          <div>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/umakan_logo.png"
+                alt="UMAKAN Technologies"
+                width={190}
+                height={60}
+                className="h-auto w-[165px] object-contain sm:w-[185px]"
+              />
+            </Link>
 
-        {/* Column 3 */}
-        <div>
-          <h3 className="text-white font-semibold text-lg mb-5">
-            Services
-          </h3>
-
-          <ul className="space-y-3 text-gray-400">
-            {services.map((service) => (
-              <li key={service.name}>
-                <Link
-                  href={service.href}
-                  className="hover:text-[#ff7900] transition duration-300"
-                >
-                  {service.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Column 4 */}
-        <div>
-          <h3 className="text-white font-semibold text-lg mb-5">
-            Contact
-          </h3>
-
-          <div className="space-y-4 text-gray-400">
-            <a
-              href="mailto:contact@umakantechnologies.in"
-              className="flex items-center gap-3 hover:text-[#ff7900] transition"
-            >
-              <Mail size={18} className="text-[#ff7900]" />
-              contact@umakantechnologies.in
-            </a>
-
-            <a
-              href="tel:+919540838797"
-              className="flex items-center gap-3 hover:text-[#ff7900] transition"
-            >
-              <Phone size={18} className="text-[#ff7900]" />
-              +91 95408 38797
-            </a>
-
-            <p className="flex items-center gap-3">
-              <MapPin size={28} className="text-[#ff7900]" />
-               Mavi Mohalla, Tehkhand Village, Okhla Phase 1, New Delhi - 110020, India
+            <p className="mt-1 max-w-[350px] text-[16px] leading-7 text-gray-400">
+              We build modern websites, scalable web applications, and digital
+              solutions that help businesses grow in the digital world.
             </p>
+
+            {/* Social */}
+            <div className="mt-7">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-gray-500">
+                Connect With Us
+              </p>
+
+              <div className="flex items-center gap-2.5">
+                {socialLinks.map((social) => {
+                  const Icon = social.icon;
+
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={social.name}
+                      title={social.name}
+                      className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-gray-400 transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7900]/50 hover:bg-[#ff7900] hover:text-white"
+                    >
+                      <Icon size={17} />
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
-          {/* Social */}
-          <div className="flex flex-wrap gap-4 mt-8">
-            {socialLinks.map((social, index) => (
-              <SecondaryButton
-                key={index}
-                href={social.href}
-                external
-              >
-                <social.icon size={18} />
-              </SecondaryButton>
-            ))}
+          {/* Quick Links */}
+          <div>
+            <FooterHeading title="Company" />
+
+            <ul className="space-y-3.5">
+              {quickLinks.map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} className="group inline-flex items-center gap-2 text-[16px] text-gray-400 transition-colors duration-300 hover:text-white">
+                    <ArrowRight size={15} className="text-[#ff7900] opacity-60 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100" />
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
+
+          {/* Services */}
+          <div>
+            <FooterHeading title="Our Services" />
+
+            <ul className="space-y-3.5">
+              {services.map((service) => (
+                <li key={service.name}>
+                  <Link href={service.href} className="group inline-flex items-start gap-2 text-[16px] leading-6 text-gray-400 transition-colors duration-300 hover:text-white">
+                    <ArrowRight size={15} className="mt-1.5 shrink-0 text-[#ff7900] opacity-60 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100" />
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <FooterHeading title="Get In Touch" />
+
+            <div className="space-y-5">
+
+              {/* Email */}
+              <a href="mailto:contact@umakantechnologies.in" className="group flex items-start gap-3">
+                <Mail size={18} className="mt-1 shrink-0 text-[#ff7900]" />
+
+                <div>
+                  <p className="break-all text-[16px] text-gray-400 transition-colors group-hover:text-white">
+                    contact@umakantechnologies.com
+                  </p>
+                </div>
+              </a>
+
+              {/* Phone */}
+              <a href="tel:+919540838797" className="group flex items-start gap-3">
+                <Phone size={18} className="mt-1 shrink-0 text-[#ff7900]" />
+
+                <div>
+                  <p className=" text-[16px] text-gray-400 transition-colors group-hover:text-white">
+                    +91 95408 38797
+                  </p>
+                </div>
+              </a>
+
+              {/* Address */}
+              <div className="flex items-start gap-3">
+                <MapPin size={18} className="mt-1 shrink-0 text-[#ff7900]" />
+
+                <div>
+                  <p className="max-w-[280px] text-[16px] leading-6 text-gray-400">
+                    Mavi Mohalla, Tehkhand Village,
+                    <br />
+                    Okhla Phase 1, New Delhi - 110020,
+                    <br />
+                    India
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
-      </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-t border-white/10 pt-6 mt-8">
-        <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} UMAKAN Technologies. All rights reserved.
-        </p>
+        {/* Divider */}
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
-        <div className="flex items-center gap-6 text-sm">
-          <Link
-            href="/privacy-policy"
-            className="text-gray-500 hover:text-[#ff7900] transition"
-          >
-            Privacy Policy
-          </Link>
+        {/* Bottom */}
+        <div className="flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
 
-          <Link
-            href="/terms-and-conditions"
-            className="text-gray-500 hover:text-[#ff7900] transition"
-          >
-            Terms & Conditions
-          </Link>
+          <p className="text-center text-xs text-gray-500 sm:text-sm md:text-left">
+            © {new Date().getFullYear()}{" "}
+            <span className="font-medium text-gray-400">
+              UMAKAN Technologies
+            </span>
+            . All rights reserved.
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs sm:gap-5 sm:text-sm">
+            <Link href="/privacy-policy" className="text-gray-500 transition-colors duration-300 hover:text-[#ff7900]">
+              Privacy Policy
+            </Link>
+
+            <span className="h-1 w-1 rounded-full bg-gray-700" />
+
+            <Link href="/terms-and-conditions" className="text-gray-500 transition-colors duration-300 hover:text-[#ff7900]">
+              Terms & Conditions
+            </Link>
+          </div>
+
         </div>
+
       </div>
     </footer>
+  );
+}
+
+function FooterHeading({ title }: { title: string }) {
+  return (
+    <div className="mb-6">
+      <h3 className="text-base font-semibold text-white">
+        {title}
+      </h3>
+
+      <div className="mt-2 h-[2px] w-8 rounded-full bg-[#ff7900]" />
+    </div>
   );
 }

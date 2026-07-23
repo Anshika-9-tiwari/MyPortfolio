@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Flex Accountant",
     href: "https://flex-accountant.com",
-    image: "/projects/flex_accountant.webp",
+    image: "/projects/flex_accountant.png",
     rotate: "rotate-3",
     top: "top-38",
     right: "right-20",
@@ -45,7 +45,7 @@ export default function ProjectsHero() {
 
       <div className="absolute -top-24 right-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-14">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <div className="grid lg:grid-cols-2 gap-13 items-center">
 
@@ -56,12 +56,11 @@ export default function ProjectsHero() {
               Featured Work
             </div>
 
-            <h1 className="mt-8 text-5xl lg:text-7xl font-bold leading-15 md:leading-20 text-white">
-              Projects That 
+           <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+              Projects That Drive
               <span className="block text-[#ff7900]">
-                Drive Business 
+                 Business Growth
               </span>
-              Growth
             </h1>
 
             <p className="mt-8 text-lg leading-8 text-gray-400 max-w-xl">

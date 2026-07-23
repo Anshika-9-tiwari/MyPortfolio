@@ -20,52 +20,24 @@ const features = [
   "Support & Maintenance",
 ];
 
-const stats = [
-  {
-    icon: BriefcaseBusiness,
-    value: "30+",
-    label: "Projects Delivered",
-  },
-  {
-    icon: MonitorSmartphone,
-    value: "100%",
-    label: "Responsive Design",
-  },
-  {
-    icon: ShieldCheck,
-    value: "99.9%",
-    label: "Secure Solutions",
-  },
-  {
-    icon: Clock3,
-    value: "24/7",
-    label: "Support",
-  },
-];
-
 export default function ServicesHero() {
   return (
     <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b border-white/5">
 
       {/* Background Glow */}
-
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
-
-      <div className="max-w-7xl mx-auto px-8 lg:px-14">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* HERO */}
-
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
           {/* LEFT */}
-
           <div>
-
             <div className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-5 py-4">
               ⚡ Our Services
             </div>
 
-            <h1 className="mt-8 text-5xl lg:text-6xl font-bold leading-tight text-white">
+            <h1 className="mt-8 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
               Digital Solutions
               <span className="block text-[#ff7900]">
                 Built for Business
@@ -115,7 +87,7 @@ export default function ServicesHero() {
                 Start Your Project
               </PrimaryButton>
 
-              <SecondaryButton href="/projects">
+              <SecondaryButton href="/projects" rightIcon={ArrowRight}>
                 View Projects
               </SecondaryButton>
 

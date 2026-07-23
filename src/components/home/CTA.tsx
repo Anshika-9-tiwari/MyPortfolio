@@ -6,14 +6,14 @@ import SecondaryButton from "../shared/SecondaryButton";
 
 export default function CTA() {
   return (
-    <section className="bg-[#0B0F19] px-7 lg:px-14 py-16 md:py-18">
+    <section className="bg-[#0B0F19] px-6 lg:px-14 py-16 md:py-18">
       <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-white/5 backdrop-blur-xl px-8 py-10 md:py-14 lg:px-14 text-center">
         
         {/* Glow Effects */}
         <div className="absolute top-0 left-0 w-72 h-72 bg-[#ff7900] opacity-20 blur-[130px]"></div>
         <div className="absolute bottom-0 right-0 w-72 h-72 bg-orange-500 opacity-20 blur-[130px]"></div>
 
-        <div className="relative z-10 max-w-4xl mx-auto">
+        <div className="relative z-10 max-w-5xl mx-auto">
           <div className="badge badge-outline border-[#ff7900] text-[#ff7900] p-4 mb-6">
             🚀 Let’s Build Something Amazing
           </div>
