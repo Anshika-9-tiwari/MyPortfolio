@@ -9,12 +9,12 @@ export default function AboutHero() {
           🔥 About UMAKAN
         </div>
 
-        <h1 className="mt-4 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+        <h1 className="mt-4 text-[40px] font-semibold leading-[1.18] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
           Building Digital Solutions That{" "}
           <span className="text-[#ff7900]">Empower Businesses to Scale</span>
         </h1>
 
-        <p className="text-gray-400 mt-6 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
+        <p className="text-gray-400 mt-6 text-lg  max-w-4xl mx-auto leading-relaxed">
           At UMAKAN Technologies, we combine strategy, design, and
           technology to build scalable websites, powerful web
           applications, and digital solutions that help businesses

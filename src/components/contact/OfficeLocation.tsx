@@ -24,8 +24,8 @@ const officeInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@umakantechnologies.com",
-    href: "mailto:contact@umakantechnologies.com",
+    value: "info@umakantechnologies.in",
+    href: "mailto:info@umakantechnologies.in",
   },
   {
     icon: MessageCircle,

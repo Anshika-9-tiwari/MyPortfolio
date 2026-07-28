@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@umakantechnologies.com",
-    href: "mailto:contact@umakantechnologies.com",
+    value: "contact@umakantechnologies.in",
+    href: "mailto:contact@umakantechnologies.in",
   },
   // {
   //   icon: MapPin,

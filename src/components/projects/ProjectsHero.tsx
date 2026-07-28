@@ -63,7 +63,7 @@ export default function ProjectsHero() {
               </span>
             </h1>
 
-            <p className="mt-8 text-lg leading-8 text-gray-400 max-w-xl">
+            <p className="mt-8 text-lg leading-7 text-gray-400 max-w-xl">
               Explore our portfolio of AI platforms,
               enterprise dashboards, business websites,
               job portals, and custom web applications

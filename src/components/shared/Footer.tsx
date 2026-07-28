@@ -16,6 +16,7 @@ const services = [
   { name: "WordPress Development", href: "/services#wordpress" },
   { name: "E-Commerce Solutions", href: "/services#ecommerce" },
   { name: "Support & Maintenance", href: "/services#support" },
+  { name: "Inustries we serve", href: "/#industries-serve" },
 ];
 
 const socialLinks = [
@@ -143,7 +144,7 @@ export default function Footer() {
 
                 <div>
                   <p className="break-all text-[16px] text-gray-400 transition-colors group-hover:text-white">
-                    contact@umakantechnologies.com
+                    contact@umakantechnologies.in
                   </p>
                 </div>
               </a>

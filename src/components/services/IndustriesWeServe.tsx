@@ -44,19 +44,19 @@ const industries = [
     icon: Workflow,
     className: "lg:col-span-6 lg:row-span-1",
     description:
-      "CRM • Lead Management • Attendance • Defect Tracking • Admin Panels",
+      "CRM • Lead Management • Attendance • Dashboards • Admin Panels",
   },
   {
     title: "Healthcare",
     icon: HeartPulse,
     className: "lg:col-span-2 lg:row-span-1",
-    description: "Healthcare Platforms",
+    description: "Healthcare Platforms etc..",
   },
 ];
 
 export default function IndustriesWeServe() {
   return (
-    <section className="bg-[#0B0F19] py-20">
+    <section id="industries-serve" className="bg-[#0B0F19] py-20">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
 
         <SectionHeader
@@ -126,6 +126,7 @@ export default function IndustriesWeServe() {
                           "AI Platforms",
                           "Dashboards",
                           "Automation",
+                          "and many more.."
                         ].map((item) => (
                           <span
                             key={item}

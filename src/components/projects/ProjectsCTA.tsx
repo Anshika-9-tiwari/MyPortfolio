@@ -33,7 +33,7 @@ export default function ProjectsCTA() {
 
             <div>
 
-              <span className="inline-flex rounded-full border border-[#ff7900]/20 bg-[#ff7900]/10 px-5 py-2 text-sm font-medium text-[#ff7900]">
+              <span className="inline-flex rounded-full border border-[#ff7900]/20 bg-[#ff7900]/10 px-5 py-2 text-xs font-medium text-[#ff7900]">
                 🚀 Let's Build Something Amazing
               </span>
 
@@ -44,7 +44,7 @@ export default function ProjectsCTA() {
                 </span>
               </h2>
 
-              <p className="mt-6 text-lg leading-8 text-gray-400">
+              <p className="mt-6 text-[18px] leading-7 text-gray-400">
                 Whether you need a business website, AI platform,
                 dashboard, or custom web application, we're here to
                 help you build a fast, scalable, and modern digital

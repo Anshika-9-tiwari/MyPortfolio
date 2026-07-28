@@ -8,9 +8,9 @@ export const siteConfig = {
   description:
     "UMAKAN Technologies builds modern custom websites, web applications, WordPress websites, eCommerce platforms, and scalable business solutions.",
 
-  url: "https://anshika-tiwari.vercel.app",
+  url: "https://umakantechnologies.in",
 
-  ogImage: "/og_image.png",
+  ogImage: "/og-image.png",
 
   author: "Anshika Tiwari",
 
@@ -31,6 +31,8 @@ export const siteConfig = {
     "SEO Friendly Website",
     "Digital Agency India",
     "Dashboard Development",
+    "Admin Panel Development",
+    "Web App Development",
   ],
 };
 

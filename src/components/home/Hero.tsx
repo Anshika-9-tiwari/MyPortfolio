@@ -22,12 +22,12 @@ export default function Hero() {
           <div className="min-w-0">
 
             {/* Badge */}
-            <div className="inline-flex items-center rounded-xl border border-[#ff7900]/70 bg-[#ff7900]/5 px-4 py-2.5 text-sm font-medium text-[#ff7900] sm:text-base">
+            <div className="inline-flex items-center rounded-xl border border-[#ff7900]/30 bg-[#ff7900]/5 px-4 py-2.5 text-xs  text-[#ff7900]/80 font-medium">
               🔥 Digital Agency for Modern Businesses
             </div>
 
             {/* Heading */}
-            <h1 className="mt-7 max-w-2xl text-[40px] font-bold leading-[1.12] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+            <h1 className="mt-7 max-w-2xl text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[54px]">
               We Build Websites That{" "}
               <span className="text-[#ff7900]">
                 Grow Your Business
@@ -35,7 +35,7 @@ export default function Hero() {
             </h1>
 
             {/* Description */}
-            <div className="mt-6 max-w-xl space-y-3 text-[15px] leading-7 text-gray-400 sm:text-base sm:leading-8 lg:text-[17px]">
+            <div className="mt-6 max-w-xl space-y-3 text-[15px] leading-7 text-gray-400 sm:text-base sm:leading-8 lg:text-[16px]">
 
               <p>
                 UMAKAN Technologies provides website development, website

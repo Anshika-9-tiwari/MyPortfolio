@@ -6,7 +6,7 @@ import SecondaryButton from "../shared/SecondaryButton";
 
 export default function CTA() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-14 py-16 md:py-18">
+    <section className="bg-[#0B0F19] px-6 lg:px-18 py-16 md:py-18">
       <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-white/5 backdrop-blur-xl px-8 py-10 md:py-14 lg:px-14 text-center">
         
         {/* Glow Effects */}
@@ -18,7 +18,7 @@ export default function CTA() {
             🚀 Let’s Build Something Amazing
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Ready to Transform Your{" "}
             <span className="text-[#ff7900]">Business Digitally?</span>
           </h2>
