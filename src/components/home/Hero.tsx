@@ -35,7 +35,7 @@ export default function Hero() {
             </h1>
 
             {/* Description */}
-            <div className="mt-6 max-w-xl space-y-3 text-[15px] leading-7 text-gray-400 sm:text-base sm:leading-8 lg:text-[18px]">
+            <div className="max-w-xl space-y-3 mt-8 text-lg leading-7 text-gray-400">
 
               <p>
                 UMAKAN Technologies provides website development, website
