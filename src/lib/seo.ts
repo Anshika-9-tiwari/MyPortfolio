@@ -8,7 +8,7 @@ export const siteConfig = {
   description:
     "UMAKAN Technologies builds modern custom websites, web applications, WordPress websites, eCommerce platforms, and scalable business solutions.",
 
-  url: "https://umakantechnologies.in",
+  url: "https://www.umakantechnologies.in",
 
   ogImage: "/og-img.png",
 

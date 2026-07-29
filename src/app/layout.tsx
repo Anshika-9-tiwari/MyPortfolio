@@ -31,6 +31,7 @@ export default function RootLayout({
       >
 
         <StructuredData />
+        
         <Navbar/>
 
         {children}
