@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { Star } from "lucide-react";
 
@@ -14,44 +15,48 @@ const getClientEmoji = (index: number) => {
 };
 
 export default function HomeTestimonials() {
+  const [slidesToShow, setSlidesToShow] = useState(1);
+
+  useEffect(() => {
+    const updateSlides = () => {
+      const width = window.innerWidth;
+
+      if (width >= 1024) {
+        setSlidesToShow(3);
+      } else if (width >= 768) {
+        setSlidesToShow(2);
+      } else {
+        setSlidesToShow(1);
+      }
+    };
+
+    updateSlides();
+
+    window.addEventListener("resize", updateSlides);
+
+    return () => window.removeEventListener("resize", updateSlides);
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 600,
-    slidesToShow: 3,
+
+    slidesToShow,
     slidesToScroll: 1,
+
     arrows: false,
     swipe: true,
     swipeToSlide: true,
     touchMove: true,
     draggable: true,
+
     centerMode: false,
     variableWidth: false,
     adaptiveHeight: false,
     pauseOnHover: true,
-
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          centerMode: false,
-          variableWidth: false,
-        },
-      },
-    ],
   };
 
   return (

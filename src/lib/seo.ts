@@ -10,7 +10,7 @@ export const siteConfig = {
 
   url: "https://umakantechnologies.in",
 
-  ogImage: "/og-image.png",
+  ogImage: "/og-img.png",
 
   author: "Anshika Tiwari",
 

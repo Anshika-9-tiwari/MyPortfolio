@@ -99,7 +99,7 @@ export async function POST(request: Request) {
           </div>
 
           <div style="background: #111827; padding: 18px; text-align: center; border-radius: 0 0 12px 12px;">
-            <p style="color: #ff7900; margin: 0; font-size: 13px;">
+            <p style="color: #fffff; margin: 0; font-size: 13px;">
               UMAKAN Technologies Website Contact Form
             </p>
           </div>
