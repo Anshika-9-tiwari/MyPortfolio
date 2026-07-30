@@ -81,7 +81,7 @@ export const servicesDetails = [
   {
     id: "dashboard-development",
     icon: BarChart3,
-    image: "/projects/dashboard_chart.png",
+    image: "/projects/dashboard_iot.jpeg",
 
     title: "Dashboard & Analytics Development",
 
