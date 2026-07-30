@@ -4,6 +4,8 @@ import {
   ShoppingCart,
   Settings,
   Wrench,
+  BarChart3,
+  BriefcaseBusiness,
 } from "lucide-react";
 
 
@@ -12,28 +14,46 @@ export const services = [
     icon: Code2,
     title: "Custom Web Development",
     description:
-      "Scalable websites, business portals, admin dashboards, and custom web applications tailored to your business.",
+      "Scalable business websites, web applications, portals, and custom software solutions built for performance and growth.",
     href: "/services#web-development",
   },
+  {
+    icon: BarChart3,
+    title: "Dashboard  Development",
+    description:
+      "Interactive admin dashboards, real-time analytics, reports, and data visualization solutions for smarter business decisions.",
+    href: "/services#dashboard-development",
+  },
+
+  {
+    icon: ShoppingCart,
+    title: "E-Commerce Development",
+    description:
+      "Conversion-focused online stores with secure payments, inventory management, and seamless shopping experiences.",
+    href: "/services#ecommerce",
+  },
+
   {
     icon: Globe,
     title: "WordPress Development",
     description:
-      "SEO-friendly business websites, landing pages, and CMS solutions built for performance and easy management.",
+      "SEO-friendly business websites, landing pages, blogs, and CMS solutions that are fast, secure, and easy to manage.",
     href: "/services#wordpress",
   },
+
   {
-    icon: ShoppingCart,
-    title: "E-Commerce Solutions",
+    icon: BriefcaseBusiness,
+    title: "Business Software Development",
     description:
-      "High-converting online stores with secure payment gateways, inventory management, &  shopping experiences.",
-    href: "/services#ecommerce",
+      "Custom CRM, ERP, HRMS, inventory, and business management systems designed to automate workflows and boost productivity.",
+    href: "/services#business-software",
   },
+
   {
     icon: Settings,
     title: "Support & Maintenance",
     description:
-      "Continuous monitoring, updates, bug fixes, and optimization to keep your website secure and running smoothly.",
+      "Ongoing updates, security monitoring, performance optimization, bug fixes, and reliable technical support.",
     href: "/services#support",
   },
 ];
@@ -53,6 +73,26 @@ export const servicesDetails = [
       "Admin Dashboards",
       "CRM & ERP Systems",
       "Custom Portals",
+    ],
+
+    href: "/contact",
+  },
+
+  {
+    id: "dashboard-development",
+    icon: BarChart3,
+    image: "/projects/dashboard_chart.png",
+
+    title: "Dashboard & Analytics Development",
+
+    description:
+      "Develop interactive dashboards and real-time analytics platforms that help businesses monitor performance, visualize data, and make informed decisions.",
+
+    features: [
+      "Admin Dashboards",
+      "Analytics & Reports",
+      "Real-Time Charts",
+      "Role-Based Access",
     ],
 
     href: "/contact",
@@ -89,6 +129,26 @@ export const servicesDetails = [
       "Payment Gateway",
       "Inventory System",
       "Order Management",
+    ],
+
+    href: "/contact",
+  },
+
+  {
+    id: "business-software",
+    icon: BriefcaseBusiness,
+    image: "/projects/attendanceapp.webp",
+
+    title: "Business Software & CRM Development",
+
+    description:
+      "Build custom CRM, ERP, HRMS, inventory, and business management systems that automate workflows and improve operational efficiency.",
+
+    features: [
+      "CRM & ERP Systems",
+      "Lead Management",
+      "Inventory Management",
+      "Business Automation",
     ],
 
     href: "/contact",

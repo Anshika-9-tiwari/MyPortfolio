@@ -14,26 +14,83 @@ export const siteConfig = {
 
   author: "Anshika Tiwari",
 
-  keywords: [
-    "UMAKAN Technologies",
-    "Web Development Company",
-    "Website Development",
-    "Next.js Development",
-    "React Developer",
-    "MERN Stack Developer",
-    "Node.js",
-    "Express.js",
-    "WordPress Development",
-    "Custom Website Development",
-    "Business Website",
-    "Portfolio Website",
-    "Ecommerce Website",
-    "SEO Friendly Website",
-    "Digital Agency India",
-    "Dashboard Development",
-    "Admin Panel Development",
-    "Web App Development",
-  ],
+ keywords: [
+  // Brand
+  "UMAKAN Technologies",
+  "UMAKAN",
+  "UMAKAN Technologies India",
+
+  // Core Services
+  "Web Development Company",
+  "Custom Website Development",
+  "Website Development Services",
+  "Web Application Development",
+  "Business Website Development",
+  "Corporate Website Development",
+  "Professional Website Development",
+  "Responsive Website Design",
+  "Website Redesign Services",
+
+  // Technologies
+  "Next.js Development",
+  "React.js Development",
+  "Node.js Development",
+  "Express.js Development",
+  "Full Stack Development",
+  "MERN Stack Development",
+  "JavaScript Development",
+  "TypeScript Development",
+  "PostgreSQL Development",
+  "REST API Development",
+
+  // Business Solutions
+  "Dashboard Development",
+  "Admin Panel Development",
+  "CRM Development",
+  "ERP Development",
+  "Lead Management System",
+  "Attendance Management System",
+  "Inventory Management System",
+  "Business Automation Solutions",
+
+  // Website Types
+  "Portfolio Website Development",
+  "Ecommerce Website Development",
+  "Landing Page Development",
+  "Company Website Development",
+  "Startup Website Development",
+  "Educational Website Development",
+
+  // CMS
+  "WordPress Development",
+  "Custom WordPress Website",
+  "WordPress Business Website",
+
+  // Performance & SEO
+  "SEO Friendly Website",
+  "Fast Loading Website",
+  "Mobile Responsive Website",
+  "High Performance Website",
+  "Secure Website Development",
+
+  // Industries
+  "Website for Startups",
+  "Website for Small Business",
+  "Enterprise Web Solutions",
+  "Digital Transformation Services",
+
+  // Location
+  "Web Development Company India",
+  "Website Development Company Delhi",
+  "Web Development Company Delhi NCR",
+  "Website Developer India",
+  "Custom Software Company India",
+
+  // Support
+  "Website Maintenance",
+  "Website Support",
+  "Website Upgrade Services"
+]
 };
 
 export const defaultMetadata: Metadata = {

@@ -17,7 +17,7 @@ export default function StructuredData() {
           url: `${siteConfig.url}/umakan_logo.png`,
         },
 
-        image: `${siteConfig.url}/og-image.png`,
+        image: `${siteConfig.url}/og-img.png`,
 
         description: siteConfig.description,
 
