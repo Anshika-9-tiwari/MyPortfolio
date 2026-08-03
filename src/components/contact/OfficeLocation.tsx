@@ -65,7 +65,7 @@ export default function OfficeLocation() {
               📍Let's Connect
             </span>
 
-            <h2 className="text-[28px] md:text-3xl font-semibold text-white mt-5">
+            <h2 className="text-[25px] md:text-[28px] font-semibold text-white mt-5">
                Based in New Delhi, serving clients across India and worldwide through remote collaboration and on-site consultations when required.
             </h2>
 

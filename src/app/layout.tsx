@@ -1,10 +1,7 @@
 import { defaultMetadata } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "react-hot-toast";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Geist, PT_Serif, Poppins } from "next/font/google";
 import "./globals.css";
 import WhatsappSticky from "@/components/whatsappicon";
 import ContactSticky from "@/components/contactstickyicon";
@@ -19,6 +16,18 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const ptSerif = PT_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-heading",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-body",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} antialiased`}
+        className={`${geistSans.variable} ${ptSerif.variable} ${poppins.variable} antialiased`}
       >
 
         <StructuredData />

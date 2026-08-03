@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
 
             {/* Heading */}
-            <h1 className="mt-7 max-w-2xl text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[54px]">
+            <h1 className="mt-7 max-w-2xl text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[50px] xl:text-[52.5px]">
               We Build Websites That{" "}
               <span className="text-[#ff7900]">
                 Grow Your Business
@@ -35,7 +35,7 @@ export default function Hero() {
             </h1>
 
             {/* Description */}
-            <div className="max-w-xl space-y-3 mt-8 text-lg leading-7 text-gray-400">
+            <div className="max-w-xl space-y-3 mt-8 text-[17.5px] leading-7 text-gray-400">
 
               <p>
                 UMAKAN Technologies provides website development, website

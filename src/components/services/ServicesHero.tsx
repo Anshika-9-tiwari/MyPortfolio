@@ -37,7 +37,7 @@ export default function ServicesHero() {
               ⚡ Our Services
             </div>
 
-            <h1 className="mt-8 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+            <h1 className="mt-8 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[50px] xl:text-[54px]">
               Digital Solutions
               <span className="block text-[#ff7900]">
                 Built for Business

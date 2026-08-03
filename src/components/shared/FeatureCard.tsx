@@ -26,7 +26,7 @@ export default function FeatureCard({
   const Card = (
     <div
       className={clsx(
-        "group flex h-full min-h-[300px] flex-col rounded-3xl border border-[#ff7900]/20 bg-white/5 p-6 shadow-xl backdrop-blur-xl transition-all duration-300 sm:p-7",
+        "group flex h-full min-h-[300px] flex-col rounded-3xl border border-[#ff7900]/20 bg-white/5 p-6 shadow-xl backdrop-blur-xl transition-all duration-300 sm:p-8",
         "hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:shadow-lg hover:shadow-[#ff7900]/10",
         variant === "gradient" && "bg-gradient-to-br from-[#ff7900]/10 via-white/5 to-transparent",
         className

@@ -56,7 +56,7 @@ export default function ProjectsHero() {
               Featured Work
             </div>
 
-           <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+           <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[50px] xl:text-[54px]">
               Projects That Drive
               <span className="block text-[#ff7900]">
                  Business Growth

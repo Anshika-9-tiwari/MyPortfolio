@@ -49,7 +49,7 @@ export default function ContactHero() {
             <div className="badge badge-outline border-[#ff7900]/30 text-[#ff7900] px-5 py-4">
               💬 Contact Us
             </div>
-            <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[54px] xl:text-[56px]">
+            <h1 className="mt-6 text-[40px] font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-[50px] xl:text-[54px]">
               Let's Build Something
               <span className="block text-[#ff7900]">
                 Amazing Together
