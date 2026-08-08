@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "KP Automation",
     category: "Business Website",
-    image: "/projects/kpautomation.webp",
+    image: "/projects/kpautoamtion1.png",
     live: "https://kpautomation.co.in",
     tech: [
       "Next.js",
@@ -70,10 +70,10 @@ export const projects = [
     ],
   },
   {
-    title: "Lead Management System",
-    category: "Business Automation",  
-    image: "/projects/leadmanagement.png",
-    live: "https://lead-management-system-swart-mu.vercel.app/dashboard",
+    title: "Velocity Automation",
+    category: "Business Website",  
+    image: "/projects/velocityautomation.png",
+    live: "https://velocityautomation.co.in",
     tech: [
       "Next.js",
       "TypeScript", 

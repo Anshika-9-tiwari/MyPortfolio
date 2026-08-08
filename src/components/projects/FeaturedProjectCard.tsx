@@ -145,7 +145,7 @@ export default function FeaturedProjectCard({
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition duration-700 hover:scale-105"
+                  className="object-center transition duration-700 hover:scale-105"
                 />
 
               </div>

@@ -20,9 +20,9 @@ const projects = [
     right: "right-0",
   },
   {
-    title: "Flex Accountant",
-    href: "https://flex-accountant.com",
-    image: "/projects/flex_accountant.png",
+    title: "KP Automation",
+    href: "https://kpautomation.co.in",
+    image: "/projects/kpautoamtion1.png",
     rotate: "rotate-3",
     top: "top-38",
     right: "right-20",
@@ -197,7 +197,7 @@ export default function ProjectsHero() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover"
+                    className="object-center"
                   />
                 </div>
               </div>

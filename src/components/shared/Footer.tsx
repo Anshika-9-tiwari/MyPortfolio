@@ -23,7 +23,7 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: FaInstagram,
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/umakan_technologies/",
   },
   {
     name: "LinkedIn",

@@ -31,22 +31,25 @@ export default function FeaturedProjects() {
 
                   {/* IMAGE */}
                   <div className={`relative ${reverse ? "lg:order-2" : "lg:order-1"}`}>
-                    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-white/10 bg-[#111827]">
+                    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-[#101623] via-[#11192b] to-[#0B0F19] p-1 sm:p-2">
 
-                      <Image
-                        src={project.image}
-                        alt={`${project.title} project by UMAKAN Technologies`}
-                        fill
-                        sizes="(max-width: 1024px) 100vw, 50vw"
-                        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                      />
+                      {/* Image Frame */}
+                      <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
 
-                      {/* Overlay */}
-                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0B0F19]/25 via-transparent to-transparent" />
+                        <Image
+                          src={project.image}
+                          alt={`${project.title} project by UMAKAN Technologies`}
+                          fill
+                          sizes="(max-width: 1024px) 100vw, 50vw"
+                          className="object-center transition duration-700 hover:scale-105 "
+                        />
 
+                        {/* Subtle Overlay */}
+                        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0B0F19]/20 via-transparent to-transparent" />
+                      </div>
                     </div>
                   </div>
-
+        
                   {/* CONTENT */}
                   <div className={`${reverse ? "lg:order-1" : "lg:order-2"} lg:px-2`}>
 
@@ -91,7 +94,7 @@ export default function FeaturedProjects() {
                     {/* CTA */}
                     <div className="mt-7">
                       <PrimaryButton href="/projects" rightIcon={ArrowRight}>
-                        View Project
+                        View More Projects
                       </PrimaryButton>
                     </div>
 

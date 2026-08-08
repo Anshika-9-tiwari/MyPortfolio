@@ -105,7 +105,7 @@ export default function ServicesHero() {
 
             {/* Browser */}
 
-            <div className="relative w-full max-w-[620px] rounded-[30px] overflow-hidden border border-white/10 bg-[#10151F] shadow-[0_30px_80px_rgba(0,0,0,.45)]">
+            <div className="relative w-full max-w-[620px] rounded-[30px] p-0.5 overflow-hidden border border-white/10 bg-[#10151F] shadow-[0_30px_80px_rgba(0,0,0,.45)]">
 
               {/* Browser Bar */}
 
@@ -121,13 +121,13 @@ export default function ServicesHero() {
 
               </div>
 
-              <div className="relative aspect-[16/10]">
+              <div className=" relative aspect-[16/10] overflow-hidden rounded-b-[28px]">
 
                 <Image
                   src="/projects/dashboard.png"
                   alt="Website Preview"
                   fill
-                  className="object-cover"
+                  className="object-center "
                 />
 
               </div>

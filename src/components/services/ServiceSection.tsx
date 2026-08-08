@@ -44,13 +44,13 @@ export default function ServicesSection() {
 
                   {/* Image */}
 
-                  <div className="relative h-[300px] lg:h-full min-h-[300px]">
+                  <div className="relative h-[300px] lg:h-full min-h-[300px] ">
 
                     <Image
                       src={service.image}
                       alt={service.title}
                       fill
-                      className="object-cover"
+                      className="object-center"
                     />
 
                   </div>

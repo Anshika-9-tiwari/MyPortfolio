@@ -11,7 +11,7 @@ const spans = [
   "lg:col-span-1",
   "lg:col-span-1",
   "lg:col-span-1",
-  "lg:col-span-2",
+  "lg:col-span-1",
   "lg:col-span-1",
   "lg:col-span-1",
   "lg:col-span-1",
@@ -29,7 +29,7 @@ export default function MoreProjects() {
           description="Explore more AI platforms, business applications, dashboards, and websites we've crafted for clients."
         />
 
-        <div className="grid lg:grid-cols-3 gap-6 mt-16">
+        <div className="grid lg:grid-cols-2 gap-6 mt-16">
 
           {projects.map((project, index) => (
 
@@ -40,12 +40,12 @@ export default function MoreProjects() {
               className={`group relative overflow-hidden rounded-[28px] border border-white/10 ${spans[index]}`}
             >
 
-              <div className="relative h-[320px]">
+              <div className="relative h-[320px] w-auto overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition duration-700 group-hover:scale-110"
+                  className="object-center  transition duration-700 group-hover:scale-110"
                 />
 
                 {/* Overlay */}
