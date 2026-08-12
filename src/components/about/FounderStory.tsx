@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FounderStory() {
   return (
-    <section className="bg-[#0B0F19] border-b border-white/10 py-16 md:py-20">
+    <section className="border-b border-white/10 bg-[#0B0F19] py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-10 xl:px-12">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-14">
 
@@ -16,32 +16,54 @@ export default function FounderStory() {
             <div className="relative flex flex-col items-center text-center">
 
               {/* Brand Image */}
-              <div className="relative flex h-35 w-35 items-center justify-center overflow-hidden rounded-2xl border border-[#ff7900]/30 bg-white/[0.04] p-3 shadow-[0_0_45px_rgba(255,121,0,0.20)] sm:h-32 sm:w-32">
-
+              <div className="relative flex h-32 w-32 items-center justify-center overflow-hidden rounded-2xl border border-[#ff7900]/30 bg-white/[0.04] p-3 shadow-[0_0_45px_rgba(255,121,0,0.20)] sm:h-36 sm:w-36">
                 <Image
                   src="/umakan_logo.png"
                   alt="UMAKAN Technologies"
                   fill
                   sizes="150px"
-                  className="object-contain p-1"
+                  className="object-contain p-2"
                   priority
                 />
-
               </div>
-              <p className="mt-6 max-w-md leading-relaxed text-gray-400">
-                Building modern websites, web applications, and scalable digital
-                solutions that help businesses grow.
+
+              {/* Brand */}
+              <h3 className="mt-7 text-2xl font-bold tracking-wide text-white sm:text-3xl">
+                UMAKAN Technologies
+              </h3>
+
+              <p className="mt-2 text-sm font-medium uppercase tracking-[3px] text-[#ff7900]">
+                Digital Solutions Partner
               </p>
 
-              {/* Founder */}
-              <div className="mt-8 w-full border-t border-white/10 pt-6">
-                <h4 className="text-xl font-semibold text-white">
-                  Anshika Tiwari
-                </h4>
+              <p className="mt-5 max-w-md leading-relaxed text-gray-400">
+                We build modern digital experiences that help businesses
+                establish a stronger online presence, streamline operations,
+                and turn ideas into scalable solutions.
+              </p>
 
-                <p className="mt-1 text-[#ff7900]">
-                  Founder & Full Stack Developer
-                </p>
+              {/* Highlights */}
+              <div className="mt-8 grid w-full grid-cols-3 gap-3 border-t border-white/10 pt-7">
+                <div>
+                  <h4 className="text-xl font-bold text-[#ff7900]">30+</h4>
+                  <p className="mt-1 text-xs text-gray-500 sm:text-sm">
+                    Projects
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-xl font-bold text-[#ff7900]">6+</h4>
+                  <p className="mt-1 text-xs text-gray-500 sm:text-sm">
+                    Solutions
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="text-xl font-bold text-[#ff7900]">100%</h4>
+                  <p className="mt-1 text-xs text-gray-500 sm:text-sm">
+                    Focus
+                  </p>
+                </div>
               </div>
 
             </div>
@@ -50,53 +72,60 @@ export default function FounderStory() {
           {/* Right Content */}
           <div>
 
+            {/* Badge */}
             <div className="badge badge-outline mb-6 border-[#ff7900]/70 p-4 text-[#ff7900]">
-              Founder Story
+              Who We Are
             </div>
 
-            <h2 className="mb-6 text-3xl font-bold text-white sm:text-4xl">
-              Meet The Founder
+            {/* Heading */}
+            <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-[42px]">
+              Building Digital Solutions
+              <span className="text-[#ff7900]"> That Move Businesses Forward</span>
             </h2>
 
-            <div className="space-y-5 leading-relaxed text-slate-400">
+            <div className="space-y-5 leading-relaxed text-slate-300">
 
               <p>
-                UMAKAN Technologies was founded by{" "}
                 <span className="font-semibold text-white">
-                  Anshika Tiwari
+                  UMAKAN Technologies
                 </span>{" "}
-                with a vision to bridge the gap between technology and business
-                growth.
+                is a digital development company focused on building modern
+                websites, web applications, dashboards, business software, and
+                scalable digital solutions.
               </p>
 
               <p>
-                What started as a passion for{" "}
-                <span className="font-semibold text-white">
-                  building websites, admin panels, and web applications
-                </span>{" "}
-                gradually evolved into a mission-driven digital agency focused
-                on solving real business challenges.
-              </p>
-
-              <p>
-                With expertise in{" "}
-                <span className="font-semibold text-white">
-                  MERN Stack, Next.js, Express.js, PostgreSQL, WordPress, and
-                  modern frontend technologies
-                </span>
-                , UMAKAN helps businesses transform ideas into scalable digital
+                We work with startups, growing businesses, and organizations
+                that want to improve their digital presence, simplify
+                workflows, and transform ideas into reliable technology
                 products.
               </p>
 
               <p>
-                We believe technology is not just about writing code—it’s about
-                building digital solutions that create measurable business
-                impact and long-term value.
+                From{" "}
+                <span className="font-semibold text-white">
+                  custom web development and WordPress websites
+                </span>{" "}
+                to{" "}
+                <span className="font-semibold text-white">
+                  dashboards, admin panels,  e-commerce platforms,
+                  and business automation
+                </span>
+                , we focus on creating solutions around real business needs.
+              </p>
+
+              <p>
+                Our approach combines{" "}
+                <span className="font-semibold text-white">
+                  clean design, modern technology, performance, scalability,
+                  and usability
+                </span>{" "}
+                to deliver digital products that are built not only to look
+                good, but to create long-term value.
               </p>
 
             </div>
           </div>
-
         </div>
       </div>
     </section>

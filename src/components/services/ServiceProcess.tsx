@@ -86,7 +86,7 @@ export default function ServiceProcess() {
                   </div>
 
                   {/* Card */}
-                  <div className="relative flex h-full min-h-[330px] flex-col overflow-hidden rounded-3xl border border-white/10 bg-[#111827] p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] xl:p-7">
+                  <div className="relative flex h-full min-h-[330px] flex-col overflow-hidden rounded-3xl border border-white/20 bg-[#111827] p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:shadow-[0_15px_40px_rgba(0,0,0,0.25)] xl:p-7">
 
                     {/* Background Number */}
                     <span className="pointer-events-none absolute -bottom-2 right-4 text-[72px] font-black leading-none text-white/[0.025] transition-colors duration-300 group-hover:text-[#ff7900]/[0.06]">

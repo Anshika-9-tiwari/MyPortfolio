@@ -9,6 +9,7 @@ import {
 
 interface FeaturedProjectCardProps {
   project: {
+    id: string;
     number: string;
     category: string;
     industry: string;
@@ -38,6 +39,7 @@ export default function FeaturedProjectCard({
           className={`grid lg:grid-cols-2 gap-14 items-center ${
             reverse ? "lg:[&>*:first-child]:order-2" : ""
           }`}
+          id={project.id}
         >
 
           {/* LEFT */}

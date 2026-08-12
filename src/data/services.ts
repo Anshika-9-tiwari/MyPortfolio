@@ -61,114 +61,98 @@ export const services = [
 
 export const servicesDetails = [
   {
-    id:'web-development',
+    id: "web-development",
     icon: Code2,
     image: "/projects/custome_web.webp",
     title: "Custom Web Development",
     description:
-      "Build scalable, secure, and high-performance web applications tailored to your business goals and workflows.",
-
+      "We design and develop fast, secure, and scalable websites and web applications tailored to your business requirements. From corporate websites and customer portals to complex admin systems, we build solutions that improve user experience, streamline workflows, and support long-term business growth.",
     features: [
       "Business Websites",
       "Admin Dashboards",
       "CRM & ERP Systems",
       "Custom Portals",
     ],
-
-    href: "/contact",
+    href: "/projects#custom-web-development",
   },
 
   {
     id: "dashboard-development",
     icon: BarChart3,
     image: "/projects/dashboard_iot.jpeg",
-
     title: "Dashboard & Analytics Development",
-
     description:
-      "Develop interactive dashboards and real-time analytics platforms that help businesses monitor performance, visualize data, and make informed decisions.",
-
+      "Turn complex business data into clear, actionable insights with custom dashboards and analytics platforms. We build interactive dashboards with real-time data, visual reports, role-based access, and performance monitoring to help teams make faster and smarter decisions.",
     features: [
       "Admin Dashboards",
       "Analytics & Reports",
       "Real-Time Charts",
       "Role-Based Access",
     ],
-
-    href: "/contact",
+    href: "/projects#custom-web-development",
   },
 
   {
-    id:'wordpress',
+    id: "wordpress",
     icon: Globe,
     image: "/projects/home_web.jpg",
     title: "WordPress Development",
     description:
-      "Modern WordPress websites designed with SEO, performance, and easy content management in mind.",
-
+      "We create professional, SEO-friendly WordPress websites that are fast, responsive, secure, and easy to manage. Whether you need a corporate website, landing page, blog, or custom CMS solution, we build WordPress experiences designed around your brand and business goals.",
     features: [
       "Corporate Websites",
       "Landing Pages",
       "Blog & CMS",
       "SEO Optimization",
     ],
-
-    href: "/contact",
+    href: "/projects#wordpress-development",
   },
 
   {
-    id:'ecommerce',
+    id: "ecommerce",
     icon: ShoppingCart,
     image: "/projects/service_ecommerce.jpeg",
     title: "E-Commerce Development",
     description:
-      "Launch conversion-focused online stores with secure payments, inventory management, and seamless shopping experiences.",
-
+      "Build a powerful online store designed to deliver a smooth shopping experience and support business growth. We develop secure and scalable e-commerce solutions with product management, payment integration, inventory tracking, order management, and conversion-focused user experiences.",
     features: [
       "Online Store",
       "Payment Gateway",
       "Inventory System",
       "Order Management",
     ],
-
-    href: "/contact",
+    href: "/projects#custom-web-development",
   },
 
   {
     id: "business-software",
     icon: BriefcaseBusiness,
     image: "/projects/attendanceapp.webp",
-
     title: "Business Software & CRM Development",
-
     description:
-      "Build custom CRM, ERP, HRMS, inventory, and business management systems that automate workflows and improve operational efficiency.",
-
+      "We develop custom business management software that helps organizations replace manual processes with efficient digital workflows. From CRM and lead management to HR, attendance, inventory, and ERP systems, our solutions are built around your specific operations and growth requirements.",
     features: [
       "CRM & ERP Systems",
       "Lead Management",
       "Inventory Management",
       "Business Automation",
     ],
-
-    href: "/contact",
+    href: "/projects#custom-web-development",
   },
 
   {
-    id:'support',
+    id: "support",
     icon: Wrench,
     image: "/projects/web_hosting.jpg",
     title: "Support & Maintenance",
     description:
-      "Keep your website secure, updated, optimized, and running smoothly with ongoing maintenance and technical support.",
-
+      "Keep your digital products secure, reliable, and performing at their best with ongoing technical support and maintenance. We handle bug fixes, performance improvements, security updates, feature enhancements, and regular monitoring so your business can operate without unnecessary technical interruptions.",
     features: [
       "Bug Fixes",
       "Performance Optimization",
       "Feature Updates",
       "Security Monitoring",
     ],
-
-    href: "/contact",
+    href: "/projects#custom-web-development",
   },
 ];

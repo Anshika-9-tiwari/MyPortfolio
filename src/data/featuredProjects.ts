@@ -2,9 +2,9 @@
 
 export const featuredProjects = [
   {
-    id: 1,
+    id: "wordpress-development",
     number: "01",
-    category: "CPA Firm",
+    category: "CPA Firm ",
     industry: "Construction Technology",
 
     title: "i-Lumber.ai",
@@ -42,7 +42,7 @@ export const featuredProjects = [
   },
 
   {
-    id: 2,
+    id: "custom-web-development",
     number: "02",
     category: "Recruitment",
     industry: "Accounting & Recruitment",
@@ -89,7 +89,7 @@ export const featuredProjects = [
   },
 
   {
-    id: 3,
+    id: "custom-web-development",
     number: "03",
     category: "Corporate Website",
     industry: "Education",

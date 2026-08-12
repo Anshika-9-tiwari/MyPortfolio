@@ -50,7 +50,7 @@ export default function ServicesSection() {
                       src={service.image}
                       alt={service.title}
                       fill
-                      className="object-center"
+                      className="object-center object-contain"
                     />
 
                   </div>
@@ -103,9 +103,9 @@ export default function ServicesSection() {
 
                     <div className="flex flex-wrap gap-4 mt-10">
 
-                      <PrimaryButton href="/projects" rightIcon={ArrowRight}>
+                      <PrimaryButton href="/contact" rightIcon={ArrowRight}>
 
-                        View Projects
+                       Learn More
 
                       </PrimaryButton>
 
@@ -114,7 +114,7 @@ export default function ServicesSection() {
                         rightIcon={ArrowRight}
                       >
 
-                        Learn More
+                        Projects
 
                       </SecondaryButton>
 

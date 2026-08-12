@@ -86,7 +86,7 @@ export default function Navbar() {
         {/* RIGHT */}
         <div className="navbar-end gap-4">
           <Link
-            href="/contact"
+            href="/contact/#contact-form"
             className="hidden lg:flex btn bg-[#ff7900] hover:bg-orange-600 text-white border-none rounded-xl px-6 shadow-lg shadow-orange-500/20"
           >
             Get Started
@@ -127,7 +127,7 @@ export default function Navbar() {
           })}
 
           <Link
-            href="/contact"
+            href="/contact/#contact-form"
             onClick={() => setMenuOpen(false)}
             className="btn bg-[#ff7900] hover:bg-orange-600 text-white border-none rounded-xl w-full mt-4"
           >
