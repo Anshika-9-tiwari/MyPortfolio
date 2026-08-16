@@ -48,7 +48,7 @@ const processSteps = [
 
 export default function ServiceProcess() {
   return (
-    <section className="overflow-hidden bg-[#0B0F19] py-16 md:py-18 lg:py-20">
+    <section id="our-process" className="overflow-hidden bg-[#0B0F19] py-12 md:py-14 lg:py-16">
 
       {/* Controlled Container */}
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">

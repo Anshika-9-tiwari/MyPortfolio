@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "KP Automation",
-    category: "Business Website",
-    image: "/projects/kpautoamtion1.png",
-    live: "https://kpautomation.co.in",
+    title: "DIAC",
+    category: "Educational Website",
+    image: "/projects/diacwebsite.webp",
+    live: "https://diac.co.in",
     tech: [
       "Next.js",
       "TypeScript",

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FounderStory() {
   return (
-    <section className="border-b border-white/10 bg-[#0B0F19] py-16 md:py-20">
+    <section className="border-b border-white/10 bg-[#0B0F19] py-16 md:py-18">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-10 xl:px-12">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-14">
 

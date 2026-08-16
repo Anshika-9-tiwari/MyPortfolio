@@ -56,7 +56,7 @@ const industries = [
 
 export default function IndustriesWeServe() {
   return (
-    <section id="industries-serve" className="bg-[#0B0F19] py-20">
+    <section id="industries-serve" className="bg-[#0B0F19] py-14 md:py-16">
       <div className="max-w-7xl mx-auto px-8 lg:px-12">
 
         <SectionHeader

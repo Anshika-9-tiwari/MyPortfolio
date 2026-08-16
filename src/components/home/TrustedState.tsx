@@ -32,7 +32,7 @@ export default function TrustedStats() {
               key={stat.label}
               className="group rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-7 text-center backdrop-blur-xl transition-all duration-300 hover:-translate-y-1.5 hover:border-[#ff7900]/40 hover:bg-[#ff7900]/5 sm:px-5 sm:py-8 md:px-4 "
             >
-              <h2 className="text-[28px] font-bold text-[#ff7900] lg:text-[32px]">
+              <h2 className="text-[30px] font-bold text-[#ff7900] lg:text-[35px]">
                 {stat.number}
               </h2>
 

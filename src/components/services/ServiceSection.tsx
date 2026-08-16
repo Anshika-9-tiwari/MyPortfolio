@@ -12,7 +12,7 @@ import { servicesDetails } from "@/data/services";
 
 export default function ServicesSection() {
   return (
-    <section className="bg-[#0B0F19] py-18">
+    <section className="bg-[#0B0F19] py-16 md:py-18">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <SectionHeader
@@ -57,7 +57,7 @@ export default function ServicesSection() {
 
                   {/* Content */}
 
-                  <div className="p-6 lg:p-12">
+                  <div className="p-0 lg:p-12">
 
                     <h2 className="text-3xl lg:text-4xl font-bold text-white">
 

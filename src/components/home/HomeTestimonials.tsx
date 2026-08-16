@@ -60,7 +60,7 @@ export default function HomeTestimonials() {
   };
 
   return (
-    <section className="overflow-hidden bg-[#0B0F19] py-14 sm:py-16 lg:py-20">
+    <section className="overflow-hidden bg-[#0B0F19] py-12 sm:py-14 lg:py-16">
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10 xl:px-12">
 
         {/* Header */}

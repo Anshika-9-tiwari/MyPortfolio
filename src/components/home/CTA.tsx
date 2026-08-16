@@ -6,7 +6,7 @@ import SecondaryButton from "../shared/SecondaryButton";
 
 export default function CTA() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-20 py-16 md:py-18">
+    <section className="bg-[#0B0F19] px-6  py-14 md:py-18">
       <div className="max-w-7xl mx-auto relative overflow-hidden rounded-3xl border border-white/20 bg-white/5 backdrop-blur-xl px-8 py-10 md:py-14 lg:px-14 text-center">
         
         {/* Glow Effects */}

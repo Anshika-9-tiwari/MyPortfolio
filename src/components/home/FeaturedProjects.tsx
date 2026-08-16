@@ -8,7 +8,7 @@ import PrimaryButton from "../shared/PrimaryButton";
 
 export default function FeaturedProjects() {
   return (
-    <section className="bg-[#0B0F19] py-16 md:py-20 lg:py-24">
+    <section className="bg-[#0B0F19] py-12 md:py-14 lg:py-16">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         {/* Heading */}

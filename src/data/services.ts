@@ -21,7 +21,7 @@ export const services = [
     icon: BarChart3,
     title: "Dashboard  Development",
     description:
-      "Interactive admin dashboards, real-time analytics, reports, and data visualization solutions for smarter business decisions.",
+      "Interactive admin dashboards, IIOT Dashboard,  real-time analytics, reports, and data visualization solutions for smarter business decisions.",
     href: "/services#dashboard-development",
   },
 
@@ -73,23 +73,23 @@ export const servicesDetails = [
       "CRM & ERP Systems",
       "Custom Portals",
     ],
-    href: "/projects#custom-web-development",
+    href: "/projects#custom-webdevelopment",
   },
 
   {
     id: "dashboard-development",
     icon: BarChart3,
-    image: "/projects/dashboard_iot.jpeg",
+    image: "/projects/dashboard-3.png",
     title: "Dashboard & Analytics Development",
     description:
       "Turn complex business data into clear, actionable insights with custom dashboards and analytics platforms. We build interactive dashboards with real-time data, visual reports, role-based access, and performance monitoring to help teams make faster and smarter decisions.",
     features: [
       "Admin Dashboards",
+      "IIOT Dashboard",
       "Analytics & Reports",
       "Real-Time Charts",
-      "Role-Based Access",
     ],
-    href: "/projects#custom-web-development",
+    href: "/projects#dashboard",
   },
 
   {
@@ -121,7 +121,7 @@ export const servicesDetails = [
       "Inventory System",
       "Order Management",
     ],
-    href: "/projects#custom-web-development",
+    href: "/projects#custom-webdevelopment",
   },
 
   {
@@ -137,7 +137,7 @@ export const servicesDetails = [
       "Inventory Management",
       "Business Automation",
     ],
-    href: "/projects#custom-web-development",
+    href: "/projects#dashboard",
   },
 
   {
@@ -153,6 +153,6 @@ export const servicesDetails = [
       "Feature Updates",
       "Security Monitoring",
     ],
-    href: "/projects#custom-web-development",
+    href: "/projects#custom-webdevelopment",
   },
 ];

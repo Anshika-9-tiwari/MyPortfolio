@@ -25,7 +25,7 @@ const technologies = [
 
 export default function WhyUmakan() {
   return (
-    <section className="bg-[#0B0F19] px-6 lg:px-14 py-20">
+    <section className="bg-[#0B0F19] px-6 lg:px-14 py-16 md:py-18">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
         {/* Header */}
         <SectionHeader

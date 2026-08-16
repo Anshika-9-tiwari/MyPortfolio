@@ -4,7 +4,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 
 export default function FeaturedProjects() {
   return (
-    <section className="bg-[#0B0F19] py-20">
+    <section className="bg-[#0B0F19] py-16 md:py-18">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10 xl:px-12">
 
         <SectionHeader

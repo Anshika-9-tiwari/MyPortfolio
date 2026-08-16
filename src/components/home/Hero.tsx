@@ -1,19 +1,19 @@
 "use client"
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowDown, ArrowRight } from "lucide-react";
 
 import PrimaryButton from "../shared/PrimaryButton";
 import SecondaryButton from "../shared/SecondaryButton";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] text-white">
+    <section className="relative overflow-hidden bg-[#0B0F19] text-white py-16">
       
       {/* Background Glow */}
       <div className="pointer-events-none absolute right-0 top-1/3 h-[450px] w-[450px] rounded-full bg-[#ff7900]/8 blur-[150px]" />
 
       {/* Main Container */}
-      <div className="relative mx-auto max-w-7xl px-6 pt-32 pb-16 sm:px-8 sm:pt-36 sm:pb-20 lg:px-10 lg:pt-36 lg:pb-24 xl:px-12">
+      <div className="relative mx-auto max-w-7xl px-6 pt-18 sm:px-8  lg:px-10 lg:pt-22 xl:px-12">
 
         <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-[1.02fr_0.98fr] lg:gap-12 xl:gap-16">
 
@@ -63,10 +63,10 @@ export default function Hero() {
               </PrimaryButton>
 
               <SecondaryButton
-                href="/projects"
-                rightIcon={ArrowRight}
+                href="/services#our-process"
+                rightIcon={ArrowDown}
               >
-                View Projects
+                Our Process
               </SecondaryButton>
 
             </div>

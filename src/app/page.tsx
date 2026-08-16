@@ -8,6 +8,7 @@ import TrustedStats from "@/components/home/TrustedState";
 import WhyChooseUs from "@/components/home/WhyChooseMe";
 import IndustriesWeServe from "@/components/services/IndustriesWeServe";
 import { createMetadata } from "@/lib/metadata";
+import ServiceProcess from "@/components/services/ServiceProcess";
 
 export const metadata = createMetadata({
   title: "Web Development Company",
@@ -24,6 +25,7 @@ export default function Home() {
         <Services />
         <FeaturedProjects />
         <IndustriesWeServe/>
+        <ServiceProcess/>
         <WhyChooseUs />
         <Testimonials/>
         <ProjectsFAQ/>

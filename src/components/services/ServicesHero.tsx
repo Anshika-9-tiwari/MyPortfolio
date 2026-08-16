@@ -22,11 +22,11 @@ const features = [
 
 export default function ServicesHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b border-white/5">
+    <section className="relative overflow-hidden bg-[#0B0F19] py-16 md:py-18 border-b border-white/5">
 
       {/* Background Glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-18">
 
         {/* HERO */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -124,7 +124,7 @@ export default function ServicesHero() {
               <div className=" relative aspect-[16/10] overflow-hidden rounded-b-[28px]">
 
                 <Image
-                  src="/projects/dashboard.png"
+                  src="/projects/dashboard-4.png"
                   alt="Website Preview"
                   fill
                   className="object-center "

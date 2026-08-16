@@ -16,7 +16,7 @@ const services = [
   { name: "WordPress Development", href: "/services#wordpress" },
   { name: "E-Commerce Solutions", href: "/services#ecommerce" },
   { name: "Support & Maintenance", href: "/services#support" },
-  { name: "Inustries we serve", href: "/#industries-serve" },
+  { name: "Dashboard Development", href: "/services#dashboard-development" },
 ];
 
 const socialLinks = [

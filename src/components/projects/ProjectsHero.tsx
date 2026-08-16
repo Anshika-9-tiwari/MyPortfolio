@@ -39,13 +39,13 @@ const projects = [
 
 export default function ProjectsHero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0F19] pt-36 pb-20 border-b-2 border-dashed border-[#ff7900]/10">
+    <section className="relative overflow-hidden bg-[#0B0F19] py-16 border-b-2 border-dashed border-[#ff7900]/10">
 
       {/* Background Blur */}
 
       <div className="absolute -top-24 right-0 w-[450px] h-[450px] rounded-full bg-[#ff7900]/10 blur-[140px]" />
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-16">
 
         <div className="grid lg:grid-cols-2 gap-13 items-center">
 
