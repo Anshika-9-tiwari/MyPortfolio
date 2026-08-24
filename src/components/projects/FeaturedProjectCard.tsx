@@ -15,10 +15,6 @@ interface FeaturedProjectCardProps {
     industry: string;
     title: string;
     overview: string;
-    challenge: string;
-    solution: string;
-    services: string[];
-    technologies: string[];
     businessImpact: string[];
     image: string;
     live: string;

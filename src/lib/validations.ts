@@ -31,7 +31,7 @@ export const contactSchema = z.object({
 
   message: z
     .string()
-    .min(10, "Please provide more details about your project. and message must be at least 10 characters"),
+    .min(8, "Please provide more details about your project. and message must be at least 8 characters"),
 });
 
 export type ContactFormData = z.infer<typeof contactSchema>;

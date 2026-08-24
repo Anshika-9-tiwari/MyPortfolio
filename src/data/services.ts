@@ -43,7 +43,7 @@ export const services = [
 
   {
     icon: BriefcaseBusiness,
-    title: "Business Software Development",
+    title: "Business Software & CRM Development",
     description:
       "Custom CRM, ERP, HRMS, inventory, and business management systems designed to automate workflows and boost productivity.",
     href: "/services#business-software",
@@ -121,13 +121,13 @@ export const servicesDetails = [
       "Inventory System",
       "Order Management",
     ],
-    href: "/projects#custom-webdevelopment",
+    href: "/projects#ecommerce-development",
   },
 
   {
     id: "business-software",
     icon: BriefcaseBusiness,
-    image: "/projects/attendanceapp.webp",
+    image: "/projects/crm-software.png",
     title: "Business Software & CRM Development",
     description:
       "We develop custom business management software that helps organizations replace manual processes with efficient digital workflows. From CRM and lead management to HR, attendance, inventory, and ERP systems, our solutions are built around your specific operations and growth requirements.",

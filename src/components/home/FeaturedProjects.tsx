@@ -36,13 +36,15 @@ export default function FeaturedProjects() {
                       {/* Image Frame */}
                       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
 
-                        <Image
-                          src={project.image}
-                          alt={`${project.title} project by UMAKAN Technologies`}
-                          fill
-                          sizes="(max-width: 1024px) 100vw, 50vw"
-                          className="object-center transition duration-700 hover:scale-105 "
-                        />
+                        <a href={project.href} target="_blank" rel="noopener noreferrer">
+                          <Image
+                            src={project.image}
+                            alt={`${project.title} project by UMAKAN Technologies`}
+                            fill
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+                            className="object-center transition duration-700 hover:scale-105 "
+                          />
+                        </a>
 
                         {/* Subtle Overlay */}
                         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0B0F19]/20 via-transparent to-transparent" />

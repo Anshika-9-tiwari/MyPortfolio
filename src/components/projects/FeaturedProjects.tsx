@@ -24,7 +24,8 @@ export default function FeaturedProjects() {
             "Admin Panel",
             "Education",
             "Business Websites",
-            "AI Platforms",
+            "E-Commerce Website",
+            "Beauty & Salon",
             "Business Automation",
           ].map((item) => (
             <span
