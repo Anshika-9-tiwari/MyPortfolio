@@ -6,13 +6,13 @@ export const siteConfig = {
   title: "UMAKAN Technologies | Web Development Company",
 
   description:
-    "UMAKAN Technologies — We build high-performance websites, admin panels, dashboards,  and business applications that help businesses work smarter and grow online. Our Services :-  Custome  Websites | WordPress Website  | E-Commerce Website | Dashboards | Admin Panel",
+    "UMAKAN Technologies — We build high-performance websites, admin panels, dashboards,  and business applications that help businesses work smarter and grow online. Our Services:- Custome  Websites | WordPress Website  | E-Commerce Website | Dashboards | Admin Panel",
 
   url: "https://www.umakantechnologies.in",
 
   ogImage: "/og-img.png",
 
-  author: "Anshika Tiwari",
+  author: "Umakant Tiwari",
 
  keywords: [
   // Brand

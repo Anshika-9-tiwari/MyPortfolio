@@ -2,7 +2,7 @@ export const faqs = [
   {
     question: "How long does a typical project take?",
     answer:
-      "Most business websites are completed within 2–4 weeks, while custom web applications may take 4–8 weeks depending on the scope and features.",
+      "Most business websites are completed within 2–3 weeks, while custom web applications may take 3-4 weeks depending on the scope and features.",
   },
   {
     question: "How much does a website cost?",
