@@ -2,12 +2,12 @@ export const faqs = [
   {
     question: "How long does a typical project take?",
     answer:
-      "Most business websites are completed within 2–3 weeks, while custom web applications may take 3-4 weeks depending on the scope and features.",
+      "Most business websites are completed within 1-2 weeks, while custom web applications may take 3-4 weeks depending on the scope and features.",
   },
   {
     question: "How much does a website cost?",
     answer:
-      "Pricing depends on the project requirements. A standard business website typically starts around ₹15,000–₹35,000, while custom web applications and advanced solutions are quoted based on features and complexity.",
+      "Pricing depends on the project requirements. A standard business website typically starts around ₹10,000–₹35,000, while custom web applications and advanced solutions are quoted based on features and complexity.",
   },
   {
     question: "Do you provide fixed-price quotations?",
