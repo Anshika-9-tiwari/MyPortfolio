@@ -27,6 +27,7 @@ export default function FeaturedProjects() {
             "E-Commerce Website",
             "Beauty & Salon",
             "Business Automation",
+            "HealthCare/Pharmacy"
           ].map((item) => (
             <span
               key={item}

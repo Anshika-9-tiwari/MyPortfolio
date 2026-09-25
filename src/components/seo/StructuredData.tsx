@@ -36,7 +36,7 @@ export default function StructuredData() {
 
         founder: {
           "@type": "Person",
-          name: "Anshika Tiwari",
+          name: "Umakant Tiwari",
         },
 
         areaServed: {

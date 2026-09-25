@@ -38,10 +38,10 @@ export const projects = [
     ],
   }, 
    {
-    title: "E-Commerce Website Landing Page",
-    category: "Adyaa Jewellers",  
-    image: "/projects/jewellery-website.png",
-    live: "https://aadyaa-jewellers.vercel.app/",
+    title: "E-Commerce Website",
+    category: "Ananya Jewellers",  
+    image: "/projects/ananya-jewels.png",
+    live: "https://ananya-jewellers.vercel.app/",
     tech: [
       "Next.js",
       "TypeScript", 
@@ -58,6 +58,20 @@ export const projects = [
       "Wordpress"
     ],
   },
+
+  {
+    title: "Advance NanoMeds",
+    category: "Pharmacy Company",
+    image: "/projects/advance-nanomeds.png",
+    live: "https://advancenanomeds.io",
+    tech:[
+      "Next.js",
+      "DaisyUI",
+      "PostgreSQL",
+      "Tailwind-CSS",
+    ]
+  },
+
   {
     title: "Attendance System",
     category: "Business Automation",
@@ -154,15 +168,15 @@ export const Homeprojects = [
   },
 
   {
-    title: "Beauty & Salon",
+    title: "Pharmacy Websites",
     description:
-      "A professional WordPress website built to strengthen the brand and showcase construction-focused services.",
-    image: "/projects/hair-salon.png",
-    tech: ["WordPress", "Elementor"],
+      "A modern platform designed to present composition, strength, dosage form, uses and safety information in a consistent, easy-to-read format.",
+    image: "/projects/advance-nanomeds.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma", "TailwinCSS/Postcss", "DaisyUI"],
     result: [
       "Stronger online presence ",
       " Clear service presentation",
     ],
-    href:'https://hair-salon-website-one.vercel.app/'
+    href:'https://advance-nanomeds.vercel.app/'
   },
 ];
