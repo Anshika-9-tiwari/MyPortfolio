@@ -16,10 +16,12 @@ export const metadata = createMetadata({
     "UMAKAN Technologies builds modern websites, custom web applications, WordPress websites, eCommerce platforms, and scalable business solutions in Delhi NCR.",
   keywords: [
     "web development company in Delhi NCR",
+    "website development globally",
     "custom web development",
     "IOT Dashboard development",
     "Custom Dashboard development",
     "WordPress website development",
+    "CPA firm website development",
     "eCommerce website development",
     "business website development",
   ],

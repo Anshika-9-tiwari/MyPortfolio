@@ -14,6 +14,7 @@ export const metadata = createMetadata({
   keywords: [
     "about UMAKAN Technologies",
     "web development company",
+    "Dashboard development services",
     "custom web development services",
     "WordPress development company",
     "business web solutions",
