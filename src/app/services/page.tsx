@@ -10,19 +10,28 @@ import { createMetadata } from "@/lib/metadata";
 export const metadata = createMetadata({
   title: "Website Development Services",
   description:
-    "Explore our custom web development, WordPress, eCommerce, MERN Stack, and modern business website solutions.",
-  path: "/services",
+    "Explore UMAKAN Technologies' website development services, including custom websites, WordPress, eCommerce, dashboards, and business web applications.",
+  keywords: [
+    "website development services",
+    "custom web development",
+    "WordPress development services",
+    "eCommerce website development",
+    "dashboard development",
+    "IOT Dashboard development",
+    "business web application development",
+  ],
+  path: "https://www.umakantechnologies.in/services",
 });
 
 export default function Services() {
   return (
     <>
-      <ServicesHero/>
-      <ServicesSection/>
-      <ServiceProcess/>
-      <WhyPartner/>
-      <ProjectsFAQ/>
-      <CTA/>
+      <ServicesHero />
+      <ServicesSection />
+      <ServiceProcess />
+      <WhyPartner />
+      <ProjectsFAQ />
+      <CTA />
     </>
   );
 }

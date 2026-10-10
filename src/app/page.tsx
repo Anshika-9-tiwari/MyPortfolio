@@ -11,9 +11,19 @@ import { createMetadata } from "@/lib/metadata";
 import ServiceProcess from "@/components/services/ServiceProcess";
 
 export const metadata = createMetadata({
-  title: "Web Development Company",
+  title: "Web Development Company in Delhi NCR | UMAKAN Technologies",
   description:
-    "UMAKAN Technologies builds modern websites, custom web applications, WordPress websites, eCommerce platforms, and scalable business solutions.",
+    "UMAKAN Technologies builds modern websites, custom web applications, WordPress websites, eCommerce platforms, and scalable business solutions in Delhi NCR.",
+  keywords: [
+    "web development company in Delhi NCR",
+    "custom web development",
+    "IOT Dashboard development",
+    "Custom Dashboard development",
+    "WordPress website development",
+    "eCommerce website development",
+    "business website development",
+  ],
+  path: "https://www.umakantechnologies.in/",
 });
 
 export default function Home() {

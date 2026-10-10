@@ -4,6 +4,7 @@ import { siteConfig } from "./seo";
 type MetadataProps = {
   title: string;
   description: string;
+  keywords?: string[];
   path?: string;
   image?: string;
 };
@@ -11,6 +12,7 @@ type MetadataProps = {
 export function createMetadata({
   title,
   description,
+  keywords,
   path = "",
   image = siteConfig.ogImage,
 }: MetadataProps): Metadata {
@@ -19,6 +21,7 @@ export function createMetadata({
   return {
     title,
     description,
+    keywords,
 
     alternates: {
       canonical: path || "/",

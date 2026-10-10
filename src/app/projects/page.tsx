@@ -1,27 +1,36 @@
-import React from 'react';
-import FeaturedProjectCard from '@/components/projects/FeaturedProjectCard';
-import FeaturedProjects from '@/components/projects/FeaturedProjects';
-import ProjectsHero from '@/components/projects/ProjectsHero';
-import { featuredProjects } from '@/data/featuredProjects';
-import MoreProjects from '@/components/projects/MoreProjects';
-import DevelopmentProcess from '@/components/projects/DevelopmentProcess';
-import ProjectsCTA from '@/components/projects/ProjectsCTA';
-import Testimonials from '@/components/home/HomeTestimonials';
-import { createMetadata } from '@/lib/metadata';
+import React from "react";
+import FeaturedProjectCard from "@/components/projects/FeaturedProjectCard";
+import FeaturedProjects from "@/components/projects/FeaturedProjects";
+import ProjectsHero from "@/components/projects/ProjectsHero";
+import { featuredProjects } from "@/data/featuredProjects";
+import MoreProjects from "@/components/projects/MoreProjects";
+import DevelopmentProcess from "@/components/projects/DevelopmentProcess";
+import ProjectsCTA from "@/components/projects/ProjectsCTA";
+import Testimonials from "@/components/home/HomeTestimonials";
+import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
-  title: "Our Portfolio",
+  title: "Web Development Projects | UMAKAN Technologies",
   description:
-    "Explore websites and web applications developed by UMAKAN Technologies across multiple industries and technologies.",
-  path: "/projects",
+    "Explore UMAKAN Technologies' portfolio of custom websites, WordPress projects, business dashboards, and web applications built for growing businesses.",
+  keywords: [
+    "web development services",
+    "website design projects",
+    "custom web applications",
+    "WordPress website projects",
+    "business dashboard development",
+    "IOT Dashboard development",
+    "business web application development",
+  ],
+  path: "https://www.umakantechnologies.in/projects",
 });
 
 export default function Projects() {
   return (
-    <main >
-      <ProjectsHero/>
-      
-      <FeaturedProjects/>
+    <main>
+      <ProjectsHero />
+
+      <FeaturedProjects />
 
       {featuredProjects.map((project, index) => (
         <FeaturedProjectCard
@@ -31,10 +40,10 @@ export default function Projects() {
         />
       ))}
 
-      <MoreProjects/>
-      <DevelopmentProcess/>
-      <Testimonials/>
-      <ProjectsCTA/>
+      <MoreProjects />
+      <DevelopmentProcess />
+      <Testimonials />
+      <ProjectsCTA />
     </main>
   );
 }
