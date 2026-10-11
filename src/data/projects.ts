@@ -60,10 +60,10 @@ export const projects = [
   },
 
   {
-    title: "Advance NanoMeds",
+    title: "Advance Pharmacy Website",
     category: "Pharmacy Company",
-    image: "/projects/advance-nanomeds.png",
-    live: "https://advancenanomeds.io",
+    image: "/projects/advance-pharmacy.png",
+    live: "https://advance-parmacy.vercel.app/",
     tech:[
       "Next.js",
       "DaisyUI",
@@ -138,9 +138,29 @@ export const projects = [
       "Tailwind CSS",
     ],
   },
+  {
+    title: "Flex-Accountant Job Portal",
+    category: "Recruitment Platform",
+    image: "/projects/flex_accountant.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma", "JWT","DaisyUI"],
+    live: "https://flex-accountant.com", 
+  },
 ];
 
 export const Homeprojects = [
+  {
+    title: "KP Automation Website",
+    description:
+      "A professional industrial automation website designed to provide comprehensive information about automation solutions and services.",
+    image: "/projects/kpautoamtion1.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma","DaisyUI"],
+    result: [
+      "Clearer product information",
+      "Improved user experience",
+    ],
+    href: "https://kpautomation.co.in/",
+  },
+
   {
     title: "DIAC Business Website",
     description:
@@ -155,28 +175,15 @@ export const Homeprojects = [
   },
 
   {
-    title: "Flex-Accountant Job Portal",
+    title: "Advance Pharmacy Website",
     description:
-      "A recruitment platform designed to connect employers with qualified accounting professionals efficiently.",
-    image: "/projects/flex_accountant.png",
-    tech: ["Next.js", "PostgreSQL", "Prisma", "JWT","DaisyUI"],
+      "A professional medical website designed to provide comprehensive information about pharmaceutical products and services.",
+    image: "/projects/advance-pharmacy.png",
+    tech: ["Next.js", "PostgreSQL", "Prisma","DaisyUI"],
     result: [
-      "Simplified hiring process ",
-      "Secure role-based experience",
+      "Simplified Product information ",
+      "Improved user experience",
     ],
-    href: "https://flex-accountant.com",
-  },
-
-  {
-    title: "Pharmacy Websites",
-    description:
-      "A modern platform designed to present composition, strength, dosage form, uses and safety information in a consistent, easy-to-read format.",
-    image: "/projects/advance-nanomeds.png",
-    tech: ["Next.js", "PostgreSQL", "Prisma", "TailwinCSS/Postcss", "DaisyUI"],
-    result: [
-      "Stronger online presence ",
-      " Clear service presentation",
-    ],
-    href:'https://advance-nanomeds.vercel.app/'
+    href: "https://advance-parmacy.vercel.app/",
   },
 ];

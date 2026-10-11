@@ -25,24 +25,23 @@ export const featuredProjects = [
   {
     id: "custom-webdevelopment",
     number: "02",
-    category: "Recruitment Platform",
-    industry: "Accounting & Recruitment",
+    category: "Pharmacy Website",
+    industry: "Healthcare",
 
-    title: "Flex Accountant",
+    title: "Advance Pharmacy",
 
     overview:
-      "A professional recruitment platform connecting employers with qualified accounting professionals through a seamless hiring experience.",
+      "A professional medical website designed to provide comprehensive information about pharmaceutical products and services.",
 
     businessImpact: [
-      "Simplified recruitment workflow",
-      "Professional user experience",
-      "SEO-friendly pages",
-      "Mobile-first responsive design",
+      "Clearer product information",
+      "Improved user experience",
+      "Better mobile accessibility",
+      "Enhanced online presence",
     ],
 
-    image: "/projects/flex_accountant.png",
-
-    live: "https://flex-accountant.com",
+    image: "/projects/advance-pharmacy.png",
+    live: "https://advance-parmacy.vercel.app", 
   },
   {
     id: "dashboard",
